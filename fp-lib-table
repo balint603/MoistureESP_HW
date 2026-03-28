@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "custom") (type "KiCad") (uri "/home/major/develop/project/kicadlibs/custom.pretty") (options "") (descr ""))
+)

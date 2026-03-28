@@ -1,0 +1,52 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "63afc247-5597-4914-a32f-0a0692f76f92")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "Vbus+"
+		(shape input)
+		(at 25.4 25.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "53bb092f-af7d-4a49-94e6-4379b66198c6")
+	)
+	(hierarchical_label "Vout-"
+		(shape output)
+		(at 254 50.8 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+			)
+			(justify left)
+		)
+		(uuid "8964d861-e2c3-42e4-9d4c-d84daa7618f3")
+	)
+	(hierarchical_label "Vout+"
+		(shape output)
+		(at 254 38.1 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+			)
+			(justify left)
+		)
+		(uuid "961969b0-f2ca-4a37-9dbd-8f37989d51b2")
+	)
+	(hierarchical_label "Vbus-"
+		(shape input)
+		(at 25.4 27.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c54b8066-90b5-43ab-9a30-4e83f57744ea")
+	)
+)
