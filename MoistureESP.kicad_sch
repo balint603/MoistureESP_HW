@@ -267,9 +267,49 @@
 				(justify left top)
 			)
 		)
-		(pin "Vpack" input
-			(at 88.9 72.39 0)
-			(uuid "fa9fefbf-e52e-478b-8c18-02946f5ea658")
+		(pin "Vpack-" output
+			(at 88.9 82.55 0)
+			(uuid "a42e9d27-374f-42bf-904d-c0e4a8e70b1a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Vcell+" input
+			(at 50.8 69.85 180)
+			(uuid "d76dae78-b177-416e-9768-30b8655ed3ba")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vcell-" input
+			(at 50.8 82.55 180)
+			(uuid "6ec7bd10-bcc0-4fc6-be7c-c5e24e36a39e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "comm{I2C}" bidirectional
+			(at 76.2 88.9 270)
+			(uuid "2569141d-13e6-43b4-9b44-4e9bb6a103c1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vpack+" output
+			(at 88.9 69.85 0)
+			(uuid "e40b81bc-44f3-40f2-bb2d-b88b64d4fb10")
 			(effects
 				(font
 					(size 1.27 1.27)
