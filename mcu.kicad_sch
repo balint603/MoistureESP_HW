@@ -160,6 +160,310 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Q_NMOS"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q6"
+				(at 6.35 1.2701 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "RUM002N05T2L"
+				(at 6.35 -1.2699 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-723"
+				(at 5.08 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "N-MOSFET transistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "NMOS N-MOS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Q_NMOS_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.921 0.381) (xy 3.683 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Q_NMOS_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -1106,249 +1410,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_BJT:SS8050"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SS8050"
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 5.08 -7.366 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" "http://www.secosgmbh.com/datasheet/products/SSMPTransistor/SOT-23/SS8050.pdf"
-				(at 5.08 -4.826 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Description" "General Purpose NPN Transistor, 1.5A Ic, 25V Vce, SOT-23"
-				(at 34.036 -2.286 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Device" "NPN"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=B 2=E 3=C"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "SS8050 NPN Transistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SS8050_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 0.635 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SS8050_1_1"
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GNDD"
 			(power global)
 			(pin_numbers
@@ -1475,17 +1536,6 @@
 			)
 			(embedded_fonts no)
 		)
-	)
-	(text "Transistor MPN check!"
-		(exclude_from_sim no)
-		(at 73.914 83.566 0)
-		(effects
-			(font
-				(size 3.2512 3.2512)
-				(color 132 0 0 1)
-			)
-		)
-		(uuid "e9cd7735-c438-4da9-a11e-43ea72a454bd")
 	)
 	(junction
 		(at 88.9 50.8)
@@ -1687,6 +1737,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 132.08) (xy 256.54 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "148e9d37-4152-48e8-ace4-859d84e3dd94")
+	)
+	(wire
+		(pts
 			(xy 35.56 74.93) (xy 71.12 74.93)
 		)
 		(stroke
@@ -1734,6 +1794,16 @@
 			(type default)
 		)
 		(uuid "31afc1a4-d9a6-49ee-8060-3a5879b894ae")
+	)
+	(wire
+		(pts
+			(xy 184.15 119.38) (xy 246.38 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3532600b-4059-43c5-8e34-97378d322ecc")
 	)
 	(wire
 		(pts
@@ -1797,6 +1867,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 132.08) (xy 256.54 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "436dd96f-ff37-4a75-ace0-4c1a41ba6c79")
+	)
+	(wire
+		(pts
 			(xy 88.9 50.8) (xy 88.9 55.88)
 		)
 		(stroke
@@ -1807,6 +1887,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 91.44) (xy 138.43 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ca7c39e-99b0-413c-96a9-d9bf7e4460bf")
+	)
+	(wire
+		(pts
 			(xy 196.85 106.68) (xy 238.76 106.68)
 		)
 		(stroke
@@ -1814,6 +1904,26 @@
 			(type default)
 		)
 		(uuid "4e021767-4d03-4179-b90a-fb064e87ed00")
+	)
+	(wire
+		(pts
+			(xy 251.46 57.15) (xy 266.7 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ec248ee-7890-4415-aa4d-7ebfa4262112")
+	)
+	(wire
+		(pts
+			(xy 138.43 101.6) (xy 171.45 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51602523-46a2-416f-929b-007c9eeaf103")
 	)
 	(wire
 		(pts
@@ -1867,6 +1977,26 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 63.5) (xy 266.7 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57ad27e9-d70f-4b6d-a30d-7ba9b8419263")
+	)
+	(wire
+		(pts
+			(xy 139.7 60.96) (xy 138.43 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "595fe1a0-732f-4a6a-a41c-d095ebefb253")
+	)
+	(wire
+		(pts
 			(xy 25.4 31.75) (xy 38.1 31.75)
 		)
 		(stroke
@@ -1897,6 +2027,26 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 101.6) (xy 171.45 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62ab4966-3cfd-49bc-86a9-491b27b7a018")
+	)
+	(wire
+		(pts
+			(xy 251.46 125.73) (xy 251.46 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68672b09-2924-4422-af6e-fe86790c0131")
+	)
+	(wire
+		(pts
 			(xy 123.19 25.4) (xy 123.19 50.8)
 		)
 		(stroke
@@ -1924,6 +2074,16 @@
 			(type default)
 		)
 		(uuid "6cbc06fa-3563-4ac3-96ca-c06876da6f6e")
+	)
+	(wire
+		(pts
+			(xy 177.8 99.06) (xy 177.8 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70a519dd-de0f-4bc5-9d49-2cb61a00af4e")
 	)
 	(bus
 		(pts
@@ -1987,6 +2147,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 111.76) (xy 184.15 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83531317-bf8e-4583-81b6-dda3a60b5de3")
+	)
+	(wire
+		(pts
 			(xy 101.6 38.1) (xy 114.3 38.1)
 		)
 		(stroke
@@ -1994,6 +2164,16 @@
 			(type default)
 		)
 		(uuid "83c6a104-83b9-46b7-a020-269b11ef1a4f")
+	)
+	(wire
+		(pts
+			(xy 139.7 78.74) (xy 138.43 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a15839e-98a4-44d4-bed9-f967d038ccc4")
 	)
 	(wire
 		(pts
@@ -2014,6 +2194,16 @@
 			(type default)
 		)
 		(uuid "9332fab9-2c3b-4792-862b-ce14677ad03b")
+	)
+	(wire
+		(pts
+			(xy 138.43 86.36) (xy 139.7 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95f9eb6c-1cc5-41f9-83be-cc3e1ace0669")
 	)
 	(wire
 		(pts
@@ -2084,6 +2274,16 @@
 			(type default)
 		)
 		(uuid "a5e222ac-14af-4cff-805f-a1cc2594374a")
+	)
+	(wire
+		(pts
+			(xy 138.43 111.76) (xy 184.15 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9f0cb51-d601-4b0b-919f-ee49a1942587")
 	)
 	(wire
 		(pts
@@ -2167,6 +2367,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 125.73) (xy 251.46 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d65f8101-7ecf-45f1-a9c0-6c9bfc3c8d7a")
+	)
+	(wire
+		(pts
 			(xy 88.9 25.4) (xy 114.3 25.4)
 		)
 		(stroke
@@ -2197,6 +2407,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 99.06) (xy 177.8 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb00c39a-5df3-4527-90cc-dc4bb9dd7566")
+	)
+	(wire
+		(pts
 			(xy 88.9 25.4) (xy 88.9 35.56)
 		)
 		(stroke
@@ -2214,6 +2434,16 @@
 			(type default)
 		)
 		(uuid "ed680c87-2588-423d-be52-edbe2c883552")
+	)
+	(wire
+		(pts
+			(xy 246.38 119.38) (xy 246.38 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eec58224-e3d9-4b99-b71c-e90800ccc8b3")
 	)
 	(wire
 		(pts
@@ -2244,6 +2474,16 @@
 			(type default)
 		)
 		(uuid "f9a6ddfb-16e9-4b55-924c-dba7fe0cd883")
+	)
+	(wire
+		(pts
+			(xy 246.38 50.8) (xy 266.7 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb786d85-d909-4e16-8480-e22a8f1e7f62")
 	)
 	(label "Disp.SDA"
 		(at 227.33 106.68 180)
@@ -2285,6 +2525,16 @@
 		)
 		(uuid "569a91e8-de60-4a1f-9959-416b22a050ae")
 	)
+	(label "BATT_I2C.SCL"
+		(at 139.7 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "56c64d32-5660-4250-9115-20cc06eee82c")
+	)
 	(label "MCU.RX"
 		(at 227.33 63.5 180)
 		(effects
@@ -2304,6 +2554,16 @@
 			(justify left bottom)
 		)
 		(uuid "768030ee-08fd-4cd3-a59f-8d97f6833640")
+	)
+	(label "BATT_I2C.SDA"
+		(at 139.7 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "77c8eda3-c76d-4fa7-bf70-a7c8be9fa4eb")
 	)
 	(label "IO0"
 		(at 139.7 55.88 0)
@@ -2344,6 +2604,26 @@
 			(justify left bottom)
 		)
 		(uuid "a0943330-4bb1-4f32-be68-386ea09c5844")
+	)
+	(label "Disp.SCL"
+		(at 139.7 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a24ba514-5766-4f29-bd17-4803a5167118")
+	)
+	(label "Disp.SDA"
+		(at 139.7 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f1b85326-c036-4af5-8356-08d1b4566030")
 	)
 	(label "MCU.DTR"
 		(at 31.75 63.5 0)
@@ -2400,7 +2680,7 @@
 	)
 	(hierarchical_label "ADC_pin"
 		(shape input)
-		(at 266.7 50.8 0)
+		(at 265.43 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2944,6 +3224,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Q_NMOS")
+		(at 68.58 82.55 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "60b6e194-0814-448d-bf27-10887cceeb44")
+		(property "Reference" "Q9"
+			(at 72.136 78.994 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RUM002N05T2L"
+			(at 72.136 76.454 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-723"
+			(at 73.66 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "N-MOSFET transistor"
+			(at 68.58 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e2a213ac-ae07-41cb-86e5-64e0175374c3")
+		)
+		(pin "3"
+			(uuid "f730129e-bd06-4d76-b659-55dfbdb25d4e")
+		)
+		(pin "2"
+			(uuid "6cf867ce-68c9-41dd-a111-9ebc23756374")
+		)
+		(instances
+			(project "MoistureESP"
+				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/0ddaa739-ba4f-4157-bc77-184906368825"
+					(reference "Q9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDD")
 		(at 88.9 67.31 0)
 		(unit 1)
@@ -3098,6 +3463,90 @@
 			(project "MoistureESP"
 				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/0ddaa739-ba4f-4157-bc77-184906368825"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_NMOS")
+		(at 68.58 63.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "750a87b2-d175-45e9-8f2f-26b9d3afcebe")
+		(property "Reference" "Q8"
+			(at 71.374 56.134 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RUM002N05T2L"
+			(at 71.374 58.674 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-723"
+			(at 73.66 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "N-MOSFET transistor"
+			(at 68.58 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9f871156-69f3-4eb9-a5f6-c8e5559eaf3c")
+		)
+		(pin "3"
+			(uuid "ffdbe55d-d78b-45e2-be68-91119ac78e51")
+		)
+		(pin "2"
+			(uuid "4e63f8de-09bd-4a66-9a81-f615575e68fe")
+		)
+		(instances
+			(project "MoistureESP"
+				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/0ddaa739-ba4f-4157-bc77-184906368825"
+					(reference "Q8")
 					(unit 1)
 				)
 			)
@@ -3717,226 +4166,6 @@
 			(project "MoistureESP"
 				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/0ddaa739-ba4f-4157-bc77-184906368825"
 					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:SS8050")
-		(at 68.58 82.55 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c12d5c53-9a6d-4cc6-9d32-e7e19c345ca9")
-		(property "Reference" "Q5"
-			(at 73.66 83.8201 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SS8050"
-			(at 73.66 81.2801 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 73.66 75.184 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://www.secosgmbh.com/datasheet/products/SSMPTransistor/SOT-23/SS8050.pdf"
-			(at 73.66 77.724 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "General Purpose NPN Transistor, 1.5A Ic, 25V Vce, SOT-23"
-			(at 102.616 80.264 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 68.58 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=B 2=E 3=C"
-			(at 68.58 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "1047401e-552c-45be-b31d-ffee57645aad")
-		)
-		(pin "1"
-			(uuid "e43af6aa-8fe7-45be-b821-dd36ffae7661")
-		)
-		(pin "2"
-			(uuid "d00393ac-1fc4-42e2-a392-435b9681bc97")
-		)
-		(instances
-			(project "MoistureESP"
-				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/0ddaa739-ba4f-4157-bc77-184906368825"
-					(reference "Q5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:SS8050")
-		(at 68.58 63.5 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ca15ba8f-33e8-4501-9b85-46ed169c2ca1")
-		(property "Reference" "Q4"
-			(at 73.66 62.2299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SS8050"
-			(at 73.66 64.7699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 73.66 70.866 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://www.secosgmbh.com/datasheet/products/SSMPTransistor/SOT-23/SS8050.pdf"
-			(at 73.66 68.326 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "General Purpose NPN Transistor, 1.5A Ic, 25V Vce, SOT-23"
-			(at 102.616 65.786 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 68.58 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=B 2=E 3=C"
-			(at 68.58 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "15f8ae86-50be-46a2-877c-de5aefc3a402")
-		)
-		(pin "1"
-			(uuid "e281b313-7aa6-4b8b-b362-83710fb3853a")
-		)
-		(pin "2"
-			(uuid "fb22c39f-4d55-4dd9-9d6b-4fb6b5ff7e09")
-		)
-		(instances
-			(project "MoistureESP"
-				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/0ddaa739-ba4f-4157-bc77-184906368825"
-					(reference "Q4")
 					(unit 1)
 				)
 			)

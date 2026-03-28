@@ -2563,7 +2563,7 @@
 		)
 		(uuid "f8ef8d51-84d5-4fc9-955b-2d86f1b14f08")
 	)
-	(hierarchical_label "Vmcu+"
+	(hierarchical_label "Vss"
 		(shape output)
 		(at 266.7 44.45 0)
 		(effects
@@ -2596,7 +2596,7 @@
 		)
 		(uuid "7d6440a9-218f-4f74-8b37-09e78b1aef13")
 	)
-	(hierarchical_label "Vmcu-"
+	(hierarchical_label "Vdd"
 		(shape output)
 		(at 266.7 31.75 0)
 		(effects
