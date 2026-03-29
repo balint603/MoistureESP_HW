@@ -1603,6 +1603,12 @@
 		(color 0 0 0 0)
 		(uuid "db593389-a30a-47ec-bd9b-cee753fb7d9f")
 	)
+	(junction
+		(at 78.74 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa01fc7f-38ee-468d-939b-6bc92fcfa771")
+	)
 	(bus_entry
 		(at 229.87 60.96)
 		(size -2.54 2.54)
@@ -1794,6 +1800,16 @@
 			(type default)
 		)
 		(uuid "31afc1a4-d9a6-49ee-8060-3a5879b894ae")
+	)
+	(wire
+		(pts
+			(xy 63.5 165.1) (xy 78.74 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "331255eb-d48f-4c02-b52d-8e173296f311")
 	)
 	(wire
 		(pts
@@ -2077,6 +2093,26 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 147.32) (xy 78.74 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f9b5c89-4709-49b3-8932-5c523f3145b5")
+	)
+	(wire
+		(pts
+			(xy 29.21 165.1) (xy 55.88 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "701dc8c4-d9e7-4255-9305-182d0124af7b")
+	)
+	(wire
+		(pts
 			(xy 177.8 99.06) (xy 177.8 125.73)
 		)
 		(stroke
@@ -2164,6 +2200,16 @@
 			(type default)
 		)
 		(uuid "83c6a104-83b9-46b7-a020-269b11ef1a4f")
+	)
+	(wire
+		(pts
+			(xy 78.74 158.75) (xy 78.74 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "863a7d5c-c50f-4667-b1e3-c85d1b31703c")
 	)
 	(wire
 		(pts
@@ -2327,6 +2373,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 173.99) (xy 78.74 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c859751c-a505-47cd-a05c-bf1208f55cd8")
+	)
+	(wire
+		(pts
 			(xy 88.9 55.88) (xy 107.95 55.88)
 		)
 		(stroke
@@ -2374,6 +2430,16 @@
 			(type default)
 		)
 		(uuid "d65f8101-7ecf-45f1-a9c0-6c9bfc3c8d7a")
+	)
+	(wire
+		(pts
+			(xy 78.74 165.1) (xy 78.74 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8267c49-62ec-4db5-a920-f9e91989c57e")
 	)
 	(wire
 		(pts
@@ -2465,6 +2531,16 @@
 		)
 		(uuid "f36f4764-a4a3-4423-b3bc-033903a15592")
 	)
+	(wire
+		(pts
+			(xy 138.43 68.58) (xy 139.7 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4b99f2c-1158-4c3f-9e5e-0028bae8e54d")
+	)
 	(bus
 		(pts
 			(xy 266.7 44.45) (xy 241.3 44.45)
@@ -2546,6 +2622,26 @@
 		(uuid "5b036908-3117-4d7c-a8bf-e755fa00398c")
 	)
 	(label "VDD"
+		(at 78.74 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "66cda619-2ddf-499d-be35-a548a0c8bbe8")
+	)
+	(label "IO5"
+		(at 78.74 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6ec6b156-51e2-416b-a157-1845ed901800")
+	)
+	(label "VDD"
 		(at 185.42 78.74 0)
 		(effects
 			(font
@@ -2615,6 +2711,16 @@
 		)
 		(uuid "a24ba514-5766-4f29-bd17-4803a5167118")
 	)
+	(label "IO5"
+		(at 139.7 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d794de02-37e1-4cec-84ea-36a379c00489")
+	)
 	(label "Disp.SDA"
 		(at 139.7 78.74 0)
 		(effects
@@ -2645,7 +2751,7 @@
 		)
 		(uuid "fb2a4e6d-b13f-46e9-ba7c-bccc798bd1d9")
 	)
-	(hierarchical_label "Sensor_enable"
+	(hierarchical_label "analog_enable"
 		(shape bidirectional)
 		(at 266.7 63.5 0)
 		(effects
@@ -2667,7 +2773,7 @@
 		)
 		(uuid "49a8820a-bff5-457f-ad7e-ff5635d2acc7")
 	)
-	(hierarchical_label "1-Wire_pin"
+	(hierarchical_label "onewire_pin"
 		(shape bidirectional)
 		(at 266.7 57.15 0)
 		(effects
@@ -2678,9 +2784,31 @@
 		)
 		(uuid "52125b39-9bfb-4179-9592-517fbfec2be0")
 	)
-	(hierarchical_label "ADC_pin"
+	(hierarchical_label "~{force_wakeup}"
 		(shape input)
-		(at 265.43 50.8 0)
+		(at 29.21 165.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6ef46404-5194-4cf8-9533-8c11d9394e3c")
+	)
+	(hierarchical_label "CHG_INOK"
+		(shape input)
+		(at 25.4 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "84d42523-3b3f-4f41-8b2f-e672aea4dd68")
+	)
+	(hierarchical_label "analog_pin"
+		(shape input)
+		(at 266.7 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3218,6 +3346,88 @@
 			(project "MoistureESP"
 				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/0ddaa739-ba4f-4157-bc77-184906368825"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 78.74 154.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "605e507b-088d-4ba6-85aa-937fd840db11")
+		(property "Reference" "R34"
+			(at 81.28 153.6699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 81.28 156.2099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 76.962 154.94 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 78.74 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2b5cc410-e661-44c5-9c6f-e43ccd44c60f")
+		)
+		(pin "2"
+			(uuid "1eaaf72e-f1ab-4922-be59-d67b5ff10911")
+		)
+		(instances
+			(project "MoistureESP"
+				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/0ddaa739-ba4f-4157-bc77-184906368825"
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -3821,6 +4031,257 @@
 			(project "MoistureESP"
 				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/0ddaa739-ba4f-4157-bc77-184906368825"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 78.74 170.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88b58f49-8e16-4952-b13a-5f8d28eb125f")
+		(property "Reference" "C17"
+			(at 82.55 168.9099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 82.55 171.4499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 79.7052 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 78.74 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 78.74 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "31b975e8-b95f-4425-a104-53adae75549c")
+		)
+		(pin "1"
+			(uuid "266438f9-06ab-469c-8f7c-bfb0a78ac23b")
+		)
+		(instances
+			(project "MoistureESP"
+				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/0ddaa739-ba4f-4157-bc77-184906368825"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 78.74 177.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98258492-29a1-4a30-9adc-7c997daa0884")
+		(property "Reference" "#PWR044"
+			(at 78.74 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 78.74 181.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 78.74 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6151ac69-c17f-498b-a9b5-75cdc9e1d046")
+		)
+		(instances
+			(project "MoistureESP"
+				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/0ddaa739-ba4f-4157-bc77-184906368825"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 59.69 165.1 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a46e0991-5b1a-479b-b71d-be4eac8c8be1")
+		(property "Reference" "R33"
+			(at 59.69 158.75 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7K"
+			(at 59.69 161.29 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 59.69 163.322 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 59.69 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "08097644-2324-47c5-b8c3-ff5c1d47621c")
+		)
+		(pin "2"
+			(uuid "6e8208e8-5dc1-4e69-b984-d6bfd9f172d5")
+		)
+		(instances
+			(project "MoistureESP"
+				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/0ddaa739-ba4f-4157-bc77-184906368825"
+					(reference "R33")
 					(unit 1)
 				)
 			)

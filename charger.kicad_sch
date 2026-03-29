@@ -27,6 +27,17 @@
 		)
 		(uuid "8964d861-e2c3-42e4-9d4c-d84daa7618f3")
 	)
+	(hierarchical_label "INOK"
+		(shape output)
+		(at 254 63.5 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+			)
+			(justify left)
+		)
+		(uuid "8f33f0d3-39fe-4cb4-9be4-73b487e9d65a")
+	)
 	(hierarchical_label "Vout+"
 		(shape output)
 		(at 254 38.1 0)
