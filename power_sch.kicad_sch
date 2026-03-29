@@ -2574,7 +2574,7 @@
 		)
 		(uuid "1b9ffed7-bc8f-439c-b7d6-4ce1a55290d3")
 	)
-	(hierarchical_label "Vin-"
+	(hierarchical_label "Vsys-"
 		(shape input)
 		(at 25.4 31.75 180)
 		(effects
@@ -2629,7 +2629,7 @@
 		)
 		(uuid "f77457b8-6d5a-4270-ba03-4e52c89e2838")
 	)
-	(hierarchical_label "Vin+"
+	(hierarchical_label "Vsys+"
 		(shape input)
 		(at 25.4 44.45 180)
 		(effects

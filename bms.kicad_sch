@@ -4283,7 +4283,7 @@
 		)
 		(uuid "fbc8937f-0333-41bd-8a5c-7e6355ac2d33")
 	)
-	(hierarchical_label "Vpack-"
+	(hierarchical_label "Vbat-"
 		(shape output)
 		(at 266.7 38.1 0)
 		(effects
@@ -4327,7 +4327,7 @@
 		)
 		(uuid "5aa6245b-427a-42ee-ba08-d2505ce0804b")
 	)
-	(hierarchical_label "Vpack+"
+	(hierarchical_label "Vbat+"
 		(shape output)
 		(at 266.7 31.75 0)
 		(effects
@@ -7581,7 +7581,7 @@
 				)
 			)
 		)
-		(property "Value" "Fuse"
+		(property "Value" "2.5A"
 			(at 44.45 21.59 90)
 			(show_name no)
 			(do_not_autoplace no)

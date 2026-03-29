@@ -604,6 +604,171 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:BZT52Bxx"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BZT52Bxx"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SOD-123F"
+				(at 0 -4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzt52b2v4.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "500mW Zener Diode, SOD-123F"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "zener diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "D?SOD?123F*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "BZT52Bxx_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BZT52Bxx_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "RF_Module:ESP32-WROOM-32D"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1537,6 +1702,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Expected Vsys = 5V"
+		(exclude_from_sim no)
+		(at 30.734 93.218 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6e5bed72-7fb7-4be8-9540-86aadbb64235")
+	)
 	(junction
 		(at 88.9 50.8)
 		(diameter 0)
@@ -1574,6 +1749,18 @@
 		(uuid "71ba5842-70df-4037-858b-4aa7a020af68")
 	)
 	(junction
+		(at 45.72 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99d392e6-31ba-4dc4-a4f3-55fda90f77b6")
+	)
+	(junction
+		(at 45.72 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c07e4b3-5f43-4cb2-b433-8cf77f5c5478")
+	)
+	(junction
 		(at 190.5 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1590,6 +1777,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b8c262d8-51fb-4792-9002-b1d2ce801b22")
+	)
+	(junction
+		(at 57.15 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d6491dcd-07f6-4231-9d62-dd9e95020923")
 	)
 	(junction
 		(at 88.9 55.88)
@@ -1933,6 +2126,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 101.6) (xy 33.02 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f31349a-1f14-4070-97fc-58cc09258585")
+	)
+	(wire
+		(pts
 			(xy 138.43 101.6) (xy 171.45 101.6)
 		)
 		(stroke
@@ -2003,6 +2206,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 105.41) (xy 57.15 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "585c7c32-2b7e-4312-bd9e-46939fac8889")
+	)
+	(wire
+		(pts
 			(xy 139.7 60.96) (xy 138.43 60.96)
 		)
 		(stroke
@@ -2063,6 +2276,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 124.46) (xy 45.72 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68c13527-31e6-4387-9b82-f9a697c47b0d")
+	)
+	(wire
+		(pts
 			(xy 123.19 25.4) (xy 123.19 50.8)
 		)
 		(stroke
@@ -2113,6 +2336,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 115.57) (xy 57.15 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7040a21e-6267-428a-834d-0e41400a9904")
+	)
+	(wire
+		(pts
 			(xy 177.8 99.06) (xy 177.8 125.73)
 		)
 		(stroke
@@ -2120,6 +2353,16 @@
 			(type default)
 		)
 		(uuid "70a519dd-de0f-4bc5-9d49-2cb61a00af4e")
+	)
+	(wire
+		(pts
+			(xy 57.15 124.46) (xy 57.15 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7176b732-a972-477c-9483-21f6b83a3c22")
 	)
 	(bus
 		(pts
@@ -2223,6 +2466,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 101.6) (xy 57.15 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ced0fdb-7cf9-4e4f-a4d2-595bd8b685d2")
+	)
+	(wire
+		(pts
 			(xy 209.55 78.74) (xy 209.55 82.55)
 		)
 		(stroke
@@ -2323,6 +2576,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 109.22) (xy 45.72 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a638c424-0c5e-414f-8112-79f1d76532ca")
+	)
+	(wire
+		(pts
 			(xy 138.43 111.76) (xy 184.15 111.76)
 		)
 		(stroke
@@ -2373,6 +2636,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 101.6) (xy 62.23 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c786b1b3-551f-4445-9f69-1258a4384fa3")
+	)
+	(wire
+		(pts
 			(xy 78.74 173.99) (xy 78.74 177.8)
 		)
 		(stroke
@@ -2420,6 +2693,16 @@
 			(type default)
 		)
 		(uuid "d438b659-0ba3-4769-9566-6b8247605f2e")
+	)
+	(wire
+		(pts
+			(xy 57.15 124.46) (xy 45.72 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d47ae612-8b5c-40b2-847f-d1b70c2eaef2")
 	)
 	(wire
 		(pts
@@ -2483,6 +2766,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 101.6) (xy 45.72 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb667560-2712-4307-a4a1-6df97415205b")
+	)
+	(wire
+		(pts
 			(xy 88.9 25.4) (xy 88.9 35.56)
 		)
 		(stroke
@@ -2541,6 +2834,16 @@
 		)
 		(uuid "f4b99f2c-1158-4c3f-9e5e-0028bae8e54d")
 	)
+	(wire
+		(pts
+			(xy 45.72 124.46) (xy 45.72 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f532f2f9-1117-4757-8bc0-6d2fa3a30eea")
+	)
 	(bus
 		(pts
 			(xy 266.7 44.45) (xy 241.3 44.45)
@@ -2580,6 +2883,16 @@
 			(justify right bottom)
 		)
 		(uuid "3a5c29f9-f893-4336-a1fc-8a7cffaeca3d")
+	)
+	(label "IO23"
+		(at 62.23 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "428b9594-04ba-4493-a4a6-ffe9843579cf")
 	)
 	(label "VDD"
 		(at 73.66 25.4 0)
@@ -2751,6 +3064,16 @@
 		)
 		(uuid "fb2a4e6d-b13f-46e9-ba7c-bccc798bd1d9")
 	)
+	(label "IO23"
+		(at 138.43 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fc81d8c1-cc48-4456-b06e-936f52d0cb2a")
+	)
 	(hierarchical_label "analog_enable"
 		(shape bidirectional)
 		(at 266.7 63.5 0)
@@ -2795,7 +3118,7 @@
 		)
 		(uuid "6ef46404-5194-4cf8-9533-8c11d9394e3c")
 	)
-	(hierarchical_label "CHG_INOK"
+	(hierarchical_label "~{CHG_INOK}"
 		(shape input)
 		(at 25.4 101.6 180)
 		(effects
@@ -3268,6 +3591,84 @@
 			(project "MoistureESP"
 				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/0ddaa739-ba4f-4157-bc77-184906368825"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 45.72 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d4e283d-2b3e-4444-9f41-4f19c0b01919")
+		(property "Reference" "#PWR046"
+			(at 45.72 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 45.72 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 45.72 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3cae3c34-b273-470b-ab61-c05167f4110d")
+		)
+		(instances
+			(project "MoistureESP"
+				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/0ddaa739-ba4f-4157-bc77-184906368825"
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -4037,6 +4438,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 45.72 113.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87e871b6-7dd5-4c3a-bc6e-8e752acd0371")
+		(property "Reference" "R40"
+			(at 48.26 111.7599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "8.1K"
+			(at 48.26 114.2999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 43.942 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 45.72 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "61ecbfb4-6223-421b-ba4c-fced368a05ab")
+		)
+		(pin "2"
+			(uuid "de4e9165-e923-408f-9d43-db1ff39fcf9e")
+		)
+		(instances
+			(project "MoistureESP"
+				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/0ddaa739-ba4f-4157-bc77-184906368825"
+					(reference "R40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 78.74 170.18 0)
 		(unit 1)
@@ -4124,6 +4607,86 @@
 			(project "MoistureESP"
 				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/0ddaa739-ba4f-4157-bc77-184906368825"
 					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 36.83 101.6 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89dadbe5-ac18-4bf8-8200-3b95d388fa5e")
+		(property "Reference" "R35"
+			(at 36.83 95.25 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5.1K"
+			(at 36.83 97.79 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 36.83 99.822 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 36.83 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e097cb1c-1d2c-495e-a192-720655c9fb73")
+		)
+		(pin "2"
+			(uuid "d073ed36-8e65-4ead-bdec-277b22c77d0e")
+		)
+		(instances
+			(project "MoistureESP"
+				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/0ddaa739-ba4f-4157-bc77-184906368825"
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -4540,6 +5103,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 57.15 109.22 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b77313de-52f3-4c42-91b5-53c2c3a8ed8c")
+		(property "Reference" "R41"
+			(at 59.69 107.9499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330R"
+			(at 59.69 110.4899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 55.372 109.22 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 57.15 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d53450b7-d253-4faa-8257-56d88586772f")
+		)
+		(pin "2"
+			(uuid "49a53bc8-6a2e-4e3a-88dc-35105f87dc7d")
+		)
+		(instances
+			(project "MoistureESP"
+				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/0ddaa739-ba4f-4157-bc77-184906368825"
+					(reference "R41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 101.6 33.02 0)
 		(unit 1)
@@ -4708,6 +5353,88 @@
 			(project "MoistureESP"
 				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/0ddaa739-ba4f-4157-bc77-184906368825"
 					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BZT52Bxx")
+		(at 57.15 119.38 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f3cb2e3f-cb05-44f6-9148-ca75767a91e2")
+		(property "Reference" "D5"
+			(at 59.69 118.1099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BZT52H-AD3V3-QX"
+			(at 59.69 120.6499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 52.705 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzt52b2v4.pdf"
+			(at 57.15 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "500mW Zener Diode, SOD-123F"
+			(at 57.15 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "28bd721c-c876-4f8e-88ec-a6655380f2fd")
+		)
+		(pin "1"
+			(uuid "8b6c99de-7a85-4035-b8a9-ce7d24397e0d")
+		)
+		(instances
+			(project "MoistureESP"
+				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/0ddaa739-ba4f-4157-bc77-184906368825"
+					(reference "D5")
 					(unit 1)
 				)
 			)
