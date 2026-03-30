@@ -1995,16 +1995,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 44.45) (xy 266.7 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3edf0b87-1f31-4c80-a3e5-418588a01b23")
-	)
-	(wire
-		(pts
 			(xy 49.53 44.45) (xy 67.31 44.45)
 		)
 		(stroke
@@ -2015,7 +2005,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 44.45) (xy 218.44 44.45)
+			(xy 165.1 44.45) (xy 266.7 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2065,7 +2055,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 44.45) (xy 49.53 44.45)
+			(xy 25.4 44.45) (xy 27.94 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2162,6 +2152,16 @@
 			(type default)
 		)
 		(uuid "77350b73-2607-469e-9b6d-0e80c934dbce")
+	)
+	(wire
+		(pts
+			(xy 35.56 44.45) (xy 49.53 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "784a6b25-4533-469f-9cb9-a451c9444fa5")
 	)
 	(wire
 		(pts
@@ -2395,7 +2395,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 91.44) (xy 218.44 91.44)
+			(xy 165.1 91.44) (xy 266.7 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2442,16 +2442,6 @@
 			(type default)
 		)
 		(uuid "d5cd5f05-bf21-48d8-a5a2-3d54ba2fe805")
-	)
-	(wire
-		(pts
-			(xy 226.06 91.44) (xy 266.7 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d875ded7-dddd-426c-87f2-cf880c3d50ac")
 	)
 	(wire
 		(pts
@@ -5128,86 +5118,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Fuse")
-		(at 222.25 44.45 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c2771761-5c08-4261-828a-f726ff9462c9")
-		(property "Reference" "F2"
-			(at 222.25 38.1 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "500mA"
-			(at 222.25 40.64 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 222.25 46.228 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 222.25 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Fuse"
-			(at 222.25 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "dfab25f7-8bd8-476b-9e39-362805a1cef3")
-		)
-		(pin "1"
-			(uuid "0bba3c30-35e3-4098-9e59-a0a85aff7157")
-		)
-		(instances
-			(project "MoistureESP"
-				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/49685a81-7509-4241-9c59-8f2ca08912fe"
-					(reference "F2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDA")
 		(at 67.31 105.41 0)
 		(unit 1)
@@ -5280,6 +5190,86 @@
 			(project "MoistureESP"
 				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/49685a81-7509-4241-9c59-8f2ca08912fe"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 31.75 44.45 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7921e8b-d5f2-4b9f-afcf-7996ffdc7a59")
+		(property "Reference" "F2"
+			(at 31.75 38.1 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "500mA"
+			(at 31.75 40.64 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 31.75 46.228 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 31.75 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0537faef-cac7-4012-8e76-024873e94b73")
+		)
+		(pin "1"
+			(uuid "cd5bf75d-6182-4eba-a82b-c0928e8064e6")
+		)
+		(instances
+			(project "MoistureESP"
+				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/49685a81-7509-4241-9c59-8f2ca08912fe"
+					(reference "F2")
 					(unit 1)
 				)
 			)
@@ -5377,86 +5367,6 @@
 			(project "MoistureESP"
 				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/49685a81-7509-4241-9c59-8f2ca08912fe"
 					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Fuse")
-		(at 222.25 91.44 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fa21eec0-c104-4189-b78b-b9fc4aa685a7")
-		(property "Reference" "F3"
-			(at 222.25 85.09 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "500mA"
-			(at 222.25 87.63 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 222.25 93.218 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 222.25 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Fuse"
-			(at 222.25 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b00519d1-4881-464c-8a2e-47bcf15e3dad")
-		)
-		(pin "1"
-			(uuid "6b9d39db-709f-4db8-a0c7-a280f6e0ed68")
-		)
-		(instances
-			(project "MoistureESP"
-				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/49685a81-7509-4241-9c59-8f2ca08912fe"
-					(reference "F3")
 					(unit 1)
 				)
 			)

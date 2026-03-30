@@ -1960,6 +1960,17 @@
 		)
 		(uuid "a994096c-1288-405e-a4b9-6e410a79d7e1")
 	)
+	(text "This charger module circuit has not been tested yet."
+		(exclude_from_sim no)
+		(at 203.708 161.544 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 194 0 0 1)
+			)
+		)
+		(uuid "c0172772-b22f-4bf7-a131-8793541af5cb")
+	)
 	(junction
 		(at 200.66 81.28)
 		(diameter 0)
