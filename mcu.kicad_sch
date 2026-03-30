@@ -1701,6 +1701,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:VDD"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VDD"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VDD\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VDD_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VDD_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "Expected Vsys = 5V"
 		(exclude_from_sim no)
@@ -1777,6 +1916,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b8c262d8-51fb-4792-9002-b1d2ce801b22")
+	)
+	(junction
+		(at 63.5 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c46abe09-26cb-4148-8869-b74e617a762a")
 	)
 	(junction
 		(at 57.15 101.6)
@@ -1966,7 +2111,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 25.4) (xy 88.9 25.4)
+			(xy 25.4 25.4) (xy 63.5 25.4)
 		)
 		(stroke
 			(width 0)
@@ -2043,6 +2188,16 @@
 			(type default)
 		)
 		(uuid "39c5e65d-8237-4a8c-856a-b3b317ed6cdd")
+	)
+	(wire
+		(pts
+			(xy 185.42 72.39) (xy 185.42 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bef25f7-70d1-4640-8b79-89c88658287f")
 	)
 	(wire
 		(pts
@@ -2356,6 +2511,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 21.59) (xy 63.5 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70aa84be-599b-4a40-8d23-d12644759982")
+	)
+	(wire
+		(pts
 			(xy 57.15 124.46) (xy 57.15 123.19)
 		)
 		(stroke
@@ -2596,6 +2761,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 96.52) (xy 138.43 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa9463b9-cbfc-4732-aa40-2b3c72e27ea0")
+	)
+	(wire
+		(pts
 			(xy 71.12 87.63) (xy 71.12 88.9)
 		)
 		(stroke
@@ -2623,6 +2798,16 @@
 			(type default)
 		)
 		(uuid "bc63702d-d2c1-4f73-a2bd-4d01d7ea3bf9")
+	)
+	(wire
+		(pts
+			(xy 85.09 165.1) (xy 78.74 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfadd37a-dec1-4b1f-9984-c1ed5d890c8e")
 	)
 	(wire
 		(pts
@@ -2864,6 +3049,16 @@
 		)
 		(uuid "fb786d85-d909-4e16-8480-e22a8f1e7f62")
 	)
+	(wire
+		(pts
+			(xy 63.5 25.4) (xy 88.9 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd7c7f63-900e-488c-b8d9-d2f1e5931dd6")
+	)
 	(label "Disp.SDA"
 		(at 227.33 106.68 180)
 		(effects
@@ -2884,7 +3079,7 @@
 		)
 		(uuid "3a5c29f9-f893-4336-a1fc-8a7cffaeca3d")
 	)
-	(label "IO23"
+	(label "~{CHG_INOK_PROT}"
 		(at 62.23 101.6 0)
 		(effects
 			(font
@@ -2892,17 +3087,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "428b9594-04ba-4493-a4a6-ffe9843579cf")
-	)
-	(label "VDD"
-		(at 73.66 25.4 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4bcc902c-d818-4c21-9bde-860f7ab2b960")
+		(uuid "49da8780-45b2-4b71-a40e-045ffff7c9e8")
 	)
 	(label "BATT_I2C.SDA"
 		(at 227.33 93.98 180)
@@ -2934,36 +3119,6 @@
 		)
 		(uuid "5b036908-3117-4d7c-a8bf-e755fa00398c")
 	)
-	(label "VDD"
-		(at 78.74 147.32 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "66cda619-2ddf-499d-be35-a548a0c8bbe8")
-	)
-	(label "IO5"
-		(at 78.74 165.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6ec6b156-51e2-416b-a157-1845ed901800")
-	)
-	(label "VDD"
-		(at 185.42 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "768030ee-08fd-4cd3-a59f-8d97f6833640")
-	)
 	(label "BATT_I2C.SDA"
 		(at 139.7 91.44 0)
 		(effects
@@ -2974,15 +3129,25 @@
 		)
 		(uuid "77c8eda3-c76d-4fa7-bf70-a7c8be9fa4eb")
 	)
-	(label "IO0"
-		(at 139.7 55.88 0)
+	(label "~{CHG_INOK_PROT}"
+		(at 139.7 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "87bd80c7-e573-4eda-b2b6-cd051852ae55")
+		(uuid "8b8f5dfc-d63e-4a83-82e5-2843a0b842d3")
+	)
+	(label "~{force_wakeup_prot}"
+		(at 85.09 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8ed93be0-4c36-4970-ae0d-deede4351e3e")
 	)
 	(label "MCU.RTS"
 		(at 29.21 82.55 180)
@@ -2994,6 +3159,16 @@
 		)
 		(uuid "9052b36f-567a-4834-983b-93723f14bace")
 	)
+	(label "~{force_wakeup_prot}"
+		(at 139.7 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "96f6d6af-5336-4995-b22a-28f45c8446bf")
+	)
 	(label "BATT_I2C.SCL"
 		(at 227.33 100.33 180)
 		(effects
@@ -3004,7 +3179,7 @@
 		)
 		(uuid "976c709b-555b-44d3-8d70-a9394fae5afc")
 	)
-	(label "IO0"
+	(label "BOOT"
 		(at 77.47 88.9 0)
 		(effects
 			(font
@@ -3024,15 +3199,15 @@
 		)
 		(uuid "a24ba514-5766-4f29-bd17-4803a5167118")
 	)
-	(label "IO5"
-		(at 139.7 68.58 0)
+	(label "BOOT"
+		(at 139.7 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "d794de02-37e1-4cec-84ea-36a379c00489")
+		(uuid "e9984495-450b-482f-bb25-64f37b2e5f35")
 	)
 	(label "Disp.SDA"
 		(at 139.7 78.74 0)
@@ -3063,16 +3238,6 @@
 			(justify right bottom)
 		)
 		(uuid "fb2a4e6d-b13f-46e9-ba7c-bccc798bd1d9")
-	)
-	(label "IO23"
-		(at 138.43 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fc81d8c1-cc48-4456-b06e-936f52d0cb2a")
 	)
 	(hierarchical_label "analog_enable"
 		(shape bidirectional)
@@ -3498,6 +3663,84 @@
 			(project "MoistureESP"
 				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/0ddaa739-ba4f-4157-bc77-184906368825"
 					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 185.42 72.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "341804c4-697d-4cc5-b1a0-a10951995c58")
+		(property "Reference" "#PWR019"
+			(at 185.42 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD"
+			(at 185.42 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 185.42 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cb7f5172-9188-48a1-b2bf-79c9e7a2a4cf")
+		)
+		(instances
+			(project "MoistureESP"
+				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/0ddaa739-ba4f-4157-bc77-184906368825"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -4080,6 +4323,162 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDD")
+		(at 63.5 21.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6832f516-bbb4-4a96-89b4-663d3eb75f46")
+		(property "Reference" "#PWR017"
+			(at 63.5 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD"
+			(at 63.5 16.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 63.5 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "987b7a07-eb26-4be0-97cb-d07dee9a5b55")
+		)
+		(instances
+			(project "MoistureESP"
+				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/0ddaa739-ba4f-4157-bc77-184906368825"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 78.74 147.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d86e9ef-1fff-4ff1-ac40-d1fe92835ac5")
+		(property "Reference" "#PWR020"
+			(at 78.74 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD"
+			(at 78.74 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 78.74 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6ac0a147-1b55-4b82-9147-1413f3d91265")
+		)
+		(instances
+			(project "MoistureESP"
+				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/0ddaa739-ba4f-4157-bc77-184906368825"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Q_NMOS")
 		(at 68.58 63.5 0)
 		(unit 1)
@@ -4446,7 +4845,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "87e871b6-7dd5-4c3a-bc6e-8e752acd0371")
 		(property "Reference" "R40"
@@ -4621,7 +5020,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "89dadbe5-ac18-4bf8-8200-3b95d388fa5e")
 		(property "Reference" "R35"
@@ -4792,7 +5191,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7K"
+		(property "Value" "100R"
 			(at 59.69 161.29 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5111,7 +5510,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b77313de-52f3-4c42-91b5-53c2c3a8ed8c")
 		(property "Reference" "R41"
@@ -5367,7 +5766,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f3cb2e3f-cb05-44f6-9148-ca75767a91e2")
 		(property "Reference" "D5"

@@ -1016,6 +1016,171 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:BZT52Bxx"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BZT52Bxx"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SOD-123F"
+				(at 0 -4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzt52b2v4.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "500mW Zener Diode, SOD-123F"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "zener diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "D?SOD?123F*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "BZT52Bxx_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BZT52Bxx_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Jumper:Jumper_2_Bridged"
 			(pin_numbers
 				(hide yes)
@@ -2302,7 +2467,7 @@
 	)
 	(text "Vsys connection for charger module, or further development."
 		(exclude_from_sim no)
-		(at 55.626 56.134 0)
+		(at 55.88 59.436 0)
 		(effects
 			(font
 				(size 0.9144 0.9144)
@@ -2366,7 +2531,7 @@
 	(text_box "Vsys"
 		(exclude_from_sim no)
 		(at 12.7 44.45 0)
-		(size 22.225 23.495)
+		(size 22.225 31.75)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0.3048)
@@ -2488,6 +2653,27 @@
 		)
 		(uuid "8c4ff783-dbe8-494d-88dd-4e38a25e78e9")
 	)
+	(text_box "BMS port"
+		(exclude_from_sim no)
+		(at 258.445 120.015 0)
+		(size 26.035 34.29)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.3048)
+			(type solid)
+			(color 72 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "b3f322be-64c2-41f4-9b88-9223276550cc")
+	)
 	(text_box "Moisture port"
 		(exclude_from_sim no)
 		(at 12.7 102.235 0)
@@ -2522,12 +2708,6 @@
 		(uuid "202455cd-8232-4399-9724-6798d4c38d67")
 	)
 	(junction
-		(at 114.3 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "38cb5b05-31ab-4633-ad54-bcdbc38d94b6")
-	)
-	(junction
 		(at 96.52 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2538,6 +2718,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6acd5cda-2d75-4e9d-b851-3d846a66e71d")
+	)
+	(junction
+		(at 182.88 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e302642-de59-4514-84e9-4fbd1444b2ab")
+	)
+	(junction
+		(at 29.21 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81853ef8-c25f-40a4-aae2-18dec8f67419")
 	)
 	(junction
 		(at 186.69 81.28)
@@ -2563,6 +2755,12 @@
 		(color 0 0 0 0)
 		(uuid "aefb4ed2-58d2-4d4e-ad23-56e068edd1aa")
 	)
+	(junction
+		(at 114.3 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4f7a7f3-76f8-40ae-870f-66544a8e5613")
+	)
 	(no_connect
 		(at 36.83 165.1)
 		(uuid "6c0ba07b-f51c-42ec-815b-98fc66221a1e")
@@ -2586,6 +2784,15 @@
 		(uuid "5727d04c-a1d5-437e-99fb-6191813c9487")
 	)
 	(bus_entry
+		(at 240.03 134.62)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74c677d9-9c21-4c80-8ad2-c3bb30f42ec2")
+	)
+	(bus_entry
 		(at 255.27 85.09)
 		(size 2.54 2.54)
 		(stroke
@@ -2602,6 +2809,15 @@
 			(type default)
 		)
 		(uuid "d5fff3c5-7ab0-4384-99fd-d0ebaa82d3f5")
+	)
+	(bus_entry
+		(at 240.03 132.08)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e60c5a92-dba2-4328-a7ba-ec614cd9baf6")
 	)
 	(bus_entry
 		(at 57.15 175.26)
@@ -2661,6 +2877,16 @@
 		)
 		(uuid "05530a5c-616a-4acd-ab2d-41610f2fb882")
 	)
+	(bus
+		(pts
+			(xy 182.88 95.25) (xy 191.77 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "073b7fe2-0fce-4bc8-a57e-95677a171eec")
+	)
 	(wire
 		(pts
 			(xy 96.52 48.26) (xy 96.52 72.39)
@@ -2700,6 +2926,16 @@
 			(type default)
 		)
 		(uuid "0ab0f993-a1d8-47ba-a599-339572ff80d8")
+	)
+	(wire
+		(pts
+			(xy 29.21 57.15) (xy 29.21 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fd3b896-7fb5-4302-a7f9-3e689f55a0d5")
 	)
 	(wire
 		(pts
@@ -2803,6 +3039,26 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 54.61) (xy 114.3 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cc51bfc-fc58-4696-aa20-5450dd2003d0")
+	)
+	(wire
+		(pts
+			(xy 96.52 72.39) (xy 114.3 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d2cc047-1e91-4966-b47a-b3a24c92ccdc")
+	)
+	(wire
+		(pts
 			(xy 30.48 142.24) (xy 25.4 142.24)
 		)
 		(stroke
@@ -2813,7 +3069,7 @@
 	)
 	(bus
 		(pts
-			(xy 88.9 95.25) (xy 191.77 95.25)
+			(xy 88.9 95.25) (xy 182.88 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2880,6 +3136,16 @@
 			(type default)
 		)
 		(uuid "3a19ef36-ca48-43ca-916a-fad67cf38376")
+	)
+	(bus
+		(pts
+			(xy 240.03 130.81) (xy 240.03 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fd75079-b64a-4bb8-bea1-5109b0e000dd")
 	)
 	(wire
 		(pts
@@ -3111,6 +3377,36 @@
 		)
 		(uuid "6f852d71-5d2f-4516-9305-16627eed2aee")
 	)
+	(bus
+		(pts
+			(xy 182.88 95.25) (xy 182.88 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72fc6209-5bb1-4b50-9f67-cf217303dc61")
+	)
+	(wire
+		(pts
+			(xy 265.43 139.7) (xy 252.73 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73051456-d28c-4645-accb-1dc59fa45e5d")
+	)
+	(wire
+		(pts
+			(xy 29.21 66.04) (xy 29.21 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7341e9f3-d994-4d7c-a331-018ee728e7f9")
+	)
 	(wire
 		(pts
 			(xy 87.63 33.02) (xy 87.63 48.26)
@@ -3243,7 +3539,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 57.15) (xy 118.11 57.15)
+			(xy 25.4 57.15) (xy 29.21 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3373,7 +3669,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 91.44) (xy 31.75 91.44)
+			(xy 63.5 91.44) (xy 29.21 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3393,6 +3689,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 57.15) (xy 118.11 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba5407cb-a1b7-4fba-8223-04b1cfa9396d")
+	)
+	(wire
+		(pts
 			(xy 90.17 33.02) (xy 87.63 33.02)
 		)
 		(stroke
@@ -3400,6 +3706,26 @@
 			(type default)
 		)
 		(uuid "bd469179-ccf2-4a34-8158-61f5c86148eb")
+	)
+	(wire
+		(pts
+			(xy 242.57 137.16) (xy 265.43 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd71ae68-5ac0-4b41-896a-6226a79e4e05")
+	)
+	(wire
+		(pts
+			(xy 252.73 139.7) (xy 252.73 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd8ffd13-b7d9-4110-881f-5f9f5b93081c")
 	)
 	(wire
 		(pts
@@ -3471,6 +3797,16 @@
 		)
 		(uuid "c717501d-651c-4ba7-8194-4c5b2fcf95bc")
 	)
+	(bus
+		(pts
+			(xy 182.88 130.81) (xy 240.03 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c85d1ee6-dc7d-4386-9939-65421cbeeee5")
+	)
 	(wire
 		(pts
 			(xy 123.19 66.04) (xy 123.19 69.85)
@@ -3480,16 +3816,6 @@
 			(type default)
 		)
 		(uuid "d0611320-e458-4547-bf00-6b943b6d23f5")
-	)
-	(wire
-		(pts
-			(xy 25.4 54.61) (xy 114.3 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d12b8f1b-33f4-44fa-9ceb-6a0bc54db62b")
 	)
 	(wire
 		(pts
@@ -3523,16 +3849,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 72.39) (xy 114.3 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d40187c0-3ad1-47f3-98df-f15b87ac255b")
-	)
-	(wire
-		(pts
 			(xy 191.77 83.82) (xy 185.42 83.82)
 		)
 		(stroke
@@ -3543,7 +3859,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 91.44) (xy 21.59 91.44)
+			(xy 17.78 91.44) (xy 19.05 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3610,6 +3926,16 @@
 			(type default)
 		)
 		(uuid "ebe91c24-6d4d-4980-9adc-e3b921b0b804")
+	)
+	(wire
+		(pts
+			(xy 242.57 134.62) (xy 265.43 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecbf9d76-36eb-43e2-b3d1-6d746ca3bb19")
 	)
 	(wire
 		(pts
@@ -3681,6 +4007,16 @@
 		)
 		(uuid "62d6f21c-523e-4701-b2a8-57c728e9d72e")
 	)
+	(label "Battery.SDA"
+		(at 246.38 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "67eecaf0-dca1-44ad-934c-8d5ec0e5f126")
+	)
 	(label "MCU.RTS"
 		(at 25.4 175.26 0)
 		(effects
@@ -3690,6 +4026,16 @@
 			(justify left bottom)
 		)
 		(uuid "89e68c7e-d562-4de4-8df9-50e5998dff12")
+	)
+	(label "Battery.SCL"
+		(at 246.38 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8b7134e9-3052-4c9c-94e6-f0baeaf98464")
 	)
 	(label "Disp.SCL"
 		(at 261.62 87.63 0)
@@ -3909,6 +4255,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:BZT52Bxx")
+		(at 29.21 62.23 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "188439c8-08e3-4534-9223-e1ede4906d53")
+		(property "Reference" "D6"
+			(at 24.638 61.468 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BZT52H-B18"
+			(at 14.732 63.246 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 24.765 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzt52b2v4.pdf"
+			(at 29.21 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "500mW Zener Diode, SOD-123F"
+			(at 29.21 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ed009c21-4d4a-4f24-9cd7-e5e8317d9a33")
+		)
+		(pin "2"
+			(uuid "0920d1be-994c-42f9-b664-7f8461eb3d34")
+		)
+		(instances
+			(project "MoistureESP"
+				(path "/f2b9f638-139e-46ec-aa60-77c4af989196"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VAA")
 		(at 154.94 66.04 0)
 		(unit 1)
@@ -3980,6 +4407,90 @@
 			(project "MoistureESP"
 				(path "/f2b9f638-139e-46ec-aa60-77c4af989196"
 					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 270.51 137.16 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2d2a5d2d-0fed-4c3e-8613-fcb05c16b322")
+		(property "Reference" "J1"
+			(at 271.78 135.8899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 261.366 142.748 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal"
+			(at 270.51 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 270.51 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 270.51 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "ac22d982-207b-49a9-b7ea-e899c5b53eab")
+		)
+		(pin "1"
+			(uuid "7f7affdd-acdb-49fe-9811-6663c7a5fead")
+		)
+		(pin "2"
+			(uuid "977c316e-ef8d-423f-a6bb-e31216baeffc")
+		)
+		(instances
+			(project "MoistureESP"
+				(path "/f2b9f638-139e-46ec-aa60-77c4af989196"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -4058,6 +4569,84 @@
 			(project "MoistureESP"
 				(path "/f2b9f638-139e-46ec-aa60-77c4af989196"
 					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 252.73 147.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "413bb025-7f69-43f7-a859-c80d4d5b80bb")
+		(property "Reference" "#PWR012"
+			(at 252.73 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 252.603 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 252.73 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e3db5396-4459-4c56-9067-9bcd871fe5ed")
+		)
+		(instances
+			(project "MoistureESP"
+				(path "/f2b9f638-139e-46ec-aa60-77c4af989196"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -4214,84 +4803,6 @@
 			(project "MoistureESP"
 				(path "/f2b9f638-139e-46ec-aa60-77c4af989196"
 					(reference "#PWR070")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 114.3 73.66 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "56c14ddd-23e0-474d-871c-25cf6c2caa27")
-		(property "Reference" "#PWR061"
-			(at 114.3 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 114.173 77.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 114.3 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e536e8f4-f9cc-4337-acce-1b46004ce9b1")
-		)
-		(instances
-			(project "MoistureESP"
-				(path "/f2b9f638-139e-46ec-aa60-77c4af989196"
-					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -4538,7 +5049,7 @@
 	)
 	(symbol
 		(lib_id "custom:147873-1")
-		(at 26.67 91.44 0)
+		(at 24.13 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4549,7 +5060,7 @@
 		(fields_autoplaced yes)
 		(uuid "855e0df8-78f6-4dff-8874-67454bf3a0ec")
 		(property "Reference" "SW1"
-			(at 26.67 85.09 0)
+			(at 24.13 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4559,7 +5070,7 @@
 			)
 		)
 		(property "Value" "147873-1"
-			(at 26.67 87.63 0)
+			(at 24.13 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4569,7 +5080,7 @@
 			)
 		)
 		(property "Footprint" "custom:SW_147873-1"
-			(at 26.67 91.44 0)
+			(at 24.13 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4581,7 +5092,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 26.67 91.44 0)
+			(at 24.13 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4593,7 +5104,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 26.67 91.44 0)
+			(at 24.13 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4604,7 +5115,7 @@
 			)
 		)
 		(property "PARTREV" "K3"
-			(at 26.67 91.44 0)
+			(at 24.13 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4616,7 +5127,7 @@
 			)
 		)
 		(property "STANDARD" "MANUFACTURER RECOMMENDATION"
-			(at 26.67 91.44 0)
+			(at 24.13 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4628,7 +5139,7 @@
 			)
 		)
 		(property "MANUFACTURER" "TE CONNECTIVITY"
-			(at 26.67 91.44 0)
+			(at 24.13 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5043,6 +5554,84 @@
 			(project "MoistureESP"
 				(path "/f2b9f638-139e-46ec-aa60-77c4af989196"
 					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 29.21 67.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8cd119d-b7ca-4c1b-9d0f-d169be08cc01")
+		(property "Reference" "#PWR066"
+			(at 29.21 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 29.083 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 29.21 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ea28907b-45be-4296-9c12-bdf46c3e03c1")
+		)
+		(instances
+			(project "MoistureESP"
+				(path "/f2b9f638-139e-46ec-aa60-77c4af989196"
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)

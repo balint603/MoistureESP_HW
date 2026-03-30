@@ -5816,7 +5816,7 @@
 		(dnp no)
 		(uuid "e9e463fb-7af8-433b-a270-9b90d5a6229b")
 		(property "Reference" "L1"
-			(at 152.4 67.31 90)
+			(at 160.274 70.866 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

@@ -656,7 +656,7 @@
         "uuid": "f2b9f638-139e-46ec-aa60-77c4af989196"
       }
     ],
-    "used_designators": "JP2,F2-3,CR1,#PWR47,#PWR66-70,J5-7",
+    "used_designators": "C8,D6,JP2-3,F2-3,CR1,#PWR12,#PWR17,#PWR19-20,#PWR47,#PWR61,#PWR66-77,J1,J5-7",
     "variants": []
   },
   "sheets": [
