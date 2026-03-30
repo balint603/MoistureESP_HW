@@ -465,160 +465,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:SM6T6V8A"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SM6T6V8A"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_SMB"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.st.com/resource/en/datasheet/sm6t.pdf"
-				(at -1.27 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "600W unidirectional Transil Transient Voltage Suppressor, 6.8Vrwm, DO-214AA"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "diode TVS voltage suppressor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "D*SMB*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SM6T6V8A_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SM6T6V8A_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "RF_Module:ESP32-WROOM-32D"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2011,12 +1857,6 @@
 		(uuid "a4bc658d-555c-4a0a-ad5f-b6da24f9798e")
 	)
 	(junction
-		(at 213.36 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b82d4930-e584-4c1a-bf21-1bf4e118f623")
-	)
-	(junction
 		(at 101.6 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2039,12 +1879,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "db593389-a30a-47ec-bd9b-cee753fb7d9f")
-	)
-	(junction
-		(at 209.55 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "de02a645-70d0-43db-815e-a2f2e2e11b96")
 	)
 	(junction
 		(at 78.74 165.1)
@@ -2296,16 +2130,6 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 100.33) (xy 213.36 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24344a0a-edcc-4bd1-b292-5a70be4cc42d")
-	)
-	(wire
-		(pts
 			(xy 71.12 68.58) (xy 71.12 71.12)
 		)
 		(stroke
@@ -2363,16 +2187,6 @@
 			(type default)
 		)
 		(uuid "3532600b-4059-43c5-8e34-97378d322ecc")
-	)
-	(wire
-		(pts
-			(xy 203.2 100.33) (xy 213.36 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "365a2c06-c9a3-49df-97cb-00a539a1ef0a")
 	)
 	(wire
 		(pts
@@ -2666,7 +2480,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 100.33) (xy 233.68 100.33)
+			(xy 203.2 100.33) (xy 233.68 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2866,16 +2680,6 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 144.78) (xy 213.36 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "970b5187-fbbc-4198-bc5a-de25d4100b84")
-	)
-	(wire
-		(pts
 			(xy 203.2 78.74) (xy 203.2 82.55)
 		)
 		(stroke
@@ -2923,16 +2727,6 @@
 			(type default)
 		)
 		(uuid "a0246450-d348-4bda-8010-57cd392ed832")
-	)
-	(wire
-		(pts
-			(xy 209.55 144.78) (xy 209.55 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a190ac9f-5f20-475a-b46c-a42edfc46841")
 	)
 	(wire
 		(pts
@@ -3063,16 +2857,6 @@
 			(type default)
 		)
 		(uuid "ca49d570-038c-4adf-8576-7ed1891dcd7a")
-	)
-	(wire
-		(pts
-			(xy 209.55 137.16) (xy 209.55 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca9b58d2-af86-43ae-9064-5675830d3081")
 	)
 	(wire
 		(pts
@@ -4247,84 +4031,6 @@
 			(project "MoistureESP"
 				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/0ddaa739-ba4f-4157-bc77-184906368825"
 					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDD")
-		(at 213.36 146.05 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "533f9332-81c2-4811-b0c2-587d0b86756d")
-		(property "Reference" "#PWR023"
-			(at 213.36 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDD"
-			(at 213.36 149.86 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 213.36 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 213.36 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 213.36 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e3ad6978-3e92-43c9-9afe-f875afeff767")
-		)
-		(instances
-			(project "MoistureESP"
-				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/0ddaa739-ba4f-4157-bc77-184906368825"
-					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -5682,87 +5388,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:SM6T6V8A")
-		(at 209.55 140.97 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "aea5c15e-e09f-430a-9a47-3b1823180641")
-		(property "Reference" "D6"
-			(at 204.724 140.208 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SM6T6V8A"
-			(at 197.358 142.494 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMB"
-			(at 204.47 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/sm6t.pdf"
-			(at 209.55 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "600W unidirectional Transil Transient Voltage Suppressor, 6.8Vrwm, DO-214AA"
-			(at 209.55 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "d1b01f89-3742-43df-8cf5-8434f42b36f9")
-		)
-		(pin "1"
-			(uuid "6c87635b-6ea8-41a5-8725-4a98a801c407")
-		)
-		(instances
-			(project "MoistureESP"
-				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/0ddaa739-ba4f-4157-bc77-184906368825"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 190.5 86.36 180)
 		(unit 1)
@@ -6024,166 +5649,6 @@
 			(project "MoistureESP"
 				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/0ddaa739-ba4f-4157-bc77-184906368825"
 					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDD")
-		(at 209.55 146.05 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bdee4b45-d863-46bd-8a17-516cec6003c0")
-		(property "Reference" "#PWR022"
-			(at 209.55 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDD"
-			(at 209.55 149.86 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 209.55 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 209.55 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 209.55 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9d25cd52-912f-41e7-b57e-79abb6eaecf7")
-		)
-		(instances
-			(project "MoistureESP"
-				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/0ddaa739-ba4f-4157-bc77-184906368825"
-					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:SM6T6V8A")
-		(at 213.36 140.97 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d51fcd24-df94-419b-a78b-bd58a100316f")
-		(property "Reference" "D7"
-			(at 215.9 139.6999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SM6T6V8A"
-			(at 215.9 142.2399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMB"
-			(at 208.28 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/sm6t.pdf"
-			(at 213.36 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "600W unidirectional Transil Transient Voltage Suppressor, 6.8Vrwm, DO-214AA"
-			(at 213.36 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "3b22d204-752e-40f5-9c10-d28b767b1dbc")
-		)
-		(pin "1"
-			(uuid "b9c7a0a0-a59e-4e40-b288-ae381f535419")
-		)
-		(instances
-			(project "MoistureESP"
-				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/0ddaa739-ba4f-4157-bc77-184906368825"
-					(reference "D7")
 					(unit 1)
 				)
 			)
