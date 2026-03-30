@@ -2762,6 +2762,12 @@
 		(uuid "aca43e80-cb60-4f53-a853-992927ab66ac")
 	)
 	(junction
+		(at 219.71 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b66a0961-8a6c-44e2-91b3-c8c4ad5694ea")
+	)
+	(junction
 		(at 104.14 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2946,6 +2952,16 @@
 			(type default)
 		)
 		(uuid "1a49589d-8479-4f2b-a4d5-f3c7f461dcfa")
+	)
+	(wire
+		(pts
+			(xy 219.71 49.53) (xy 219.71 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b25475f-5c62-4bb5-811a-76deccdf82ba")
 	)
 	(wire
 		(pts
@@ -3149,6 +3165,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 31.75) (xy 219.71 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51454bc3-3161-4127-b3dc-ef31d280d637")
+	)
+	(wire
+		(pts
 			(xy 50.8 38.1) (xy 50.8 50.8)
 		)
 		(stroke
@@ -3196,6 +3222,16 @@
 			(type default)
 		)
 		(uuid "62335eb0-5125-49ab-99a4-44fad0a4b7cc")
+	)
+	(wire
+		(pts
+			(xy 219.71 40.64) (xy 219.71 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63135868-3bd3-4f59-92dc-7ec8298c7306")
 	)
 	(wire
 		(pts
@@ -3346,6 +3382,16 @@
 			(type default)
 		)
 		(uuid "7cfc9b9a-9082-480e-afe5-cc60d01e45c7")
+	)
+	(wire
+		(pts
+			(xy 219.71 31.75) (xy 266.7 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fd3c56d-aa33-4002-b2ea-43ad37d49a9c")
 	)
 	(wire
 		(pts
@@ -3669,7 +3715,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 31.75) (xy 266.7 31.75)
+			(xy 177.8 31.75) (xy 219.71 31.75)
 		)
 		(stroke
 			(width 0)
@@ -5050,7 +5096,7 @@
 				)
 			)
 		)
-		(property "Size" "1608"
+		(property "Size" "1206"
 			(at 50.8 114.3 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5081,6 +5127,88 @@
 			(project "MoistureESP"
 				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/b13ba67b-4069-4f36-b5d0-6a46a6b78ce9"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 219.71 45.72 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ea31bd1-f9b1-4c1b-9c30-419586adb5c3")
+		(property "Reference" "C27"
+			(at 223.52 44.4499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 223.52 46.9899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 218.7448 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 219.71 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1866b8cf-8b3e-4bab-a95e-2cf9b140dccb")
+		)
+		(pin "1"
+			(uuid "fc548cae-2b1a-48b5-8311-f858fe97f148")
+		)
+		(instances
+			(project "MoistureESP"
+				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/b13ba67b-4069-4f36-b5d0-6a46a6b78ce9"
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -5717,6 +5845,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDPWR")
+		(at 219.71 52.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66ff3a57-49a6-469c-bafc-6978115ed3b0")
+		(property "Reference" "#PWR021"
+			(at 219.71 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 219.583 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 219.71 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2ea1a324-4751-42ee-8444-a2c7b92ab05a")
+		)
+		(instances
+			(project "MoistureESP"
+				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/b13ba67b-4069-4f36-b5d0-6a46a6b78ce9"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 50.8 88.9 90)
 		(unit 1)
@@ -6004,6 +6210,88 @@
 			(project "MoistureESP"
 				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/b13ba67b-4069-4f36-b5d0-6a46a6b78ce9"
 					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 219.71 36.83 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7295a39-2afa-4a5f-9e9b-59b4ad80bce0")
+		(property "Reference" "C8"
+			(at 223.52 35.5599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 223.52 38.0999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 218.7448 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 219.71 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7e7f491b-6d0b-4fa5-bf7d-7ba82283f1ff")
+		)
+		(pin "1"
+			(uuid "2dce9838-3ab5-419b-b824-0848fc9525c3")
+		)
+		(instances
+			(project "MoistureESP"
+				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/b13ba67b-4069-4f36-b5d0-6a46a6b78ce9"
+					(reference "C8")
 					(unit 1)
 				)
 			)
