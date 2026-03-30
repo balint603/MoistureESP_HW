@@ -2726,12 +2726,6 @@
 		(uuid "5bd8b9b0-b9d4-465b-967a-7b398f282244")
 	)
 	(junction
-		(at 50.8 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "61c8ed8b-4854-47a8-ac5d-9b871efadcde")
-	)
-	(junction
 		(at 158.75 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2872,6 +2866,16 @@
 			(type default)
 		)
 		(uuid "0558b576-5b4f-4ab4-8dfc-b3c321b60deb")
+	)
+	(wire
+		(pts
+			(xy 48.26 25.4) (xy 50.8 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e890051-a166-424e-9043-e4ac91562a41")
 	)
 	(wire
 		(pts
@@ -3612,16 +3616,6 @@
 			(type default)
 		)
 		(uuid "b75b76d3-0c35-4552-8730-9a3b1d24f650")
-	)
-	(wire
-		(pts
-			(xy 48.26 25.4) (xy 50.8 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b78b536d-0701-49fb-be93-85400f40bf6a")
 	)
 	(bus
 		(pts
@@ -4946,86 +4940,6 @@
 			(project "MoistureESP"
 				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/b13ba67b-4069-4f36-b5d0-6a46a6b78ce9"
 					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 50.8 25.4 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4c46f0ee-72f9-4be8-9b63-ef522cfea9fe")
-		(property "Reference" "TP1"
-			(at 53.34 20.8279 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 53.34 23.3679 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 55.88 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 50.8 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cdc92311-22de-45e9-8898-9dfa51c8ce52")
-		)
-		(instances
-			(project "MoistureESP"
-				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/b13ba67b-4069-4f36-b5d0-6a46a6b78ce9"
-					(reference "TP1")
 					(unit 1)
 				)
 			)

@@ -2378,7 +2378,7 @@
 		)
 		(uuid "f5afd55b-2ff9-4cd4-bc24-8f4179347bff")
 	)
-	(hierarchical_label "Vss"
+	(hierarchical_label "Vdd"
 		(shape output)
 		(at 266.7 44.45 0)
 		(effects
@@ -2411,7 +2411,7 @@
 		)
 		(uuid "7d6440a9-218f-4f74-8b37-09e78b1aef13")
 	)
-	(hierarchical_label "Vdd"
+	(hierarchical_label "Vss"
 		(shape output)
 		(at 266.7 31.75 0)
 		(effects
