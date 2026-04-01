@@ -655,6 +655,12 @@
         "RX",
         "DTR",
         "RTS"
+      ],
+      "USB2": [
+        "DN",
+        "DP",
+        "VBUS",
+        "GND"
       ]
     },
     "connection_grid_size": 50.0,
@@ -697,7 +703,7 @@
         "uuid": "f2b9f638-139e-46ec-aa60-77c4af989196"
       }
     ],
-    "used_designators": "R42,Q10,U6-7",
+    "used_designators": "D6-7,R42,Q10,U5-7",
     "variants": []
   },
   "sheets": [
