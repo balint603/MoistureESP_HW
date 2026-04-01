@@ -310,7 +310,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:DMP3099L"
+		(symbol "Transistor_BJT:BC856"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -331,7 +331,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "DMP3099L"
+			(property "Value" "BC856"
 				(at 5.08 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -355,8 +355,8 @@
 					(justify left)
 				)
 			)
-			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMP3099L.pdf"
-				(at 5.08 -3.81 0)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC860-D.pdf"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -367,7 +367,7 @@
 					(justify left)
 				)
 			)
-			(property "Description" "-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23"
+			(property "Description" "0.1A Ic, 65V Vce, PNP Transistor, SOT-23"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -378,7 +378,29 @@
 					)
 				)
 			)
-			(property "ki_keywords" "P-Channel MOSFET"
+			(property "Sim.Device" "PNP"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=B 2=E 3=C"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "PNP transistor"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -400,22 +422,10 @@
 					)
 				)
 			)
-			(symbol "DMP3099L_0_1"
+			(symbol "BC856_0_1"
 				(polyline
 					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
+						(xy -2.54 0) (xy 0.635 0)
 					)
 					(stroke
 						(width 0)
@@ -427,10 +437,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
+						(xy 0.635 1.905) (xy 0.635 -1.905)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.508)
 						(type default)
 					)
 					(fill
@@ -439,7 +449,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+						(xy 0.635 0.635) (xy 2.54 2.54)
 					)
 					(stroke
 						(width 0)
@@ -451,54 +461,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -509,69 +472,34 @@
 					)
 				)
 				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778)
+					)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
 						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.921 -0.381) (xy 3.683 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
 					)
 				)
 			)
-			(symbol "DMP3099L_1_1"
+			(symbol "BC856_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
-					(name "G"
+					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -589,7 +517,7 @@
 				(pin passive line
 					(at 2.54 -5.08 90)
 					(length 2.54)
-					(name "S"
+					(name "E"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -607,7 +535,7 @@
 				(pin passive line
 					(at 2.54 5.08 270)
 					(length 2.54)
-					(name "D"
+					(name "C"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -625,11 +553,535 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "custom:SI7137DP-T1-GE3"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "SI7137DP-T1-GE3"
+				(at 0 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "custom:MOSFET_7DP-T1-GE3_VIS"
+				(at -1.778 5.588 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/doc?69063"
+				(at -1.524 6.604 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "SI7137DP-T1-GE3"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MOSFET_7DP-T1-GE3_VIS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SI7137DP-T1-GE3_0_1"
+				(polyline
+					(pts
+						(xy -6.35 1.27) (xy -3.175 1.27)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -2.54) (xy -3.175 1.27)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0.635) (xy -2.54 1.905)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.905) (xy -2.54 -3.175)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.9525 -0.3175) (xy 0 -0.635) (xy -0.9525 -0.9525)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.9525 -0.9525) (xy -0.9525 -0.3175)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.905) (xy 2.54 1.905)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 1.27)
+					(radius 0.127)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.635) (xy -2.54 -0.635)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.635) (xy -0.9525 -0.3175)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.635) (xy -0.9525 -0.9525)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.635) (xy 0 5.715)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.175) (xy 0 -7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -4.445) (xy 2.54 -4.445)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -0.635) (xy 3.175 -0.635)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -1.905) (xy 3.175 -1.905)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -1.905) (xy 3.175 -1.905) (xy 2.54 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -0.635) (xy 1.905 -1.905)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -4.445) (xy 2.54 1.905)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 -1.905) (xy 2.54 -0.635)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 6.35 270)
+					(length 3.81)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 10.16 270)
+					(length 7.62)
+					(hide yes)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 10.16 270)
+					(length 7.62)
+					(hide yes)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 1.27 0)
+					(length 3.81)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -6.35 90)
+					(length 3.81)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -11.43 90)
+					(length 7.62)
+					(hide yes)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -11.43 90)
+					(length 7.62)
+					(hide yes)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -11.43 90)
+					(length 7.62)
+					(hide yes)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
-	(text_box "Vgs(250uA)min = -0.5V, Vgs(250uA)max = -1.3V\nVzmin = 4.8V\nVzmax = 5.4V"
+	(text_box "Vzmin = 4.8V\nVzmax = 5.4V"
 		(exclude_from_sim no)
 		(at 85.725 67.945 0)
-		(size 29.21 10.0822)
+		(size 17.145 6.35)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -645,6 +1097,12 @@
 			(justify left top)
 		)
 		(uuid "d20bce63-0984-4330-b045-e7d635dc44a6")
+	)
+	(junction
+		(at 129.54 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5cad49e1-8d76-4dbd-97c5-2f96b76e42fe")
 	)
 	(junction
 		(at 55.88 63.5)
@@ -690,7 +1148,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 33.02) (xy 55.88 63.5)
+			(xy 55.88 33.02) (xy 55.88 46.99)
 		)
 		(stroke
 			(width 0)
@@ -730,6 +1188,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 25.4) (xy 129.54 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "540da44b-3f1a-4e73-9e0c-93ff040d70d3")
+	)
+	(wire
+		(pts
 			(xy 76.2 25.4) (xy 93.98 25.4)
 		)
 		(stroke
@@ -737,6 +1205,16 @@
 			(type default)
 		)
 		(uuid "5d9b45ef-92cb-45e2-aff3-36d794b656a5")
+	)
+	(wire
+		(pts
+			(xy 55.88 54.61) (xy 55.88 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60b99a36-98f0-43c3-ba75-0e5c3aa42559")
 	)
 	(wire
 		(pts
@@ -760,13 +1238,13 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 25.4) (xy 50.8 25.4)
+			(xy 129.54 25.4) (xy 132.08 25.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8d4f7eb3-f398-46ea-a308-ef8034d4bd8a")
+		(uuid "81db47d3-d6dc-445d-9f39-c3801c116c82")
 	)
 	(wire
 		(pts
@@ -797,16 +1275,6 @@
 			(type default)
 		)
 		(uuid "9439e9bd-bec4-4cc4-be28-ab109b8eda46")
-	)
-	(wire
-		(pts
-			(xy 121.92 25.4) (xy 132.08 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6174f0f-6009-4a00-aa04-919eb143fe2b")
 	)
 	(wire
 		(pts
@@ -847,6 +1315,16 @@
 			(type default)
 		)
 		(uuid "db315600-43d4-4144-85a2-e17b229ea714")
+	)
+	(wire
+		(pts
+			(xy 41.91 25.4) (xy 48.26 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e57c26df-a6bc-4db1-9f2e-c990113b4dcf")
 	)
 	(wire
 		(pts
@@ -933,92 +1411,6 @@
 		(uuid "f8a70290-fd82-4ec8-bab7-8169b5dcd1b6")
 	)
 	(symbol
-		(lib_id "Transistor_FET:DMP3099L")
-		(at 55.88 27.94 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "12f0a34c-1810-409f-8886-dda67d6117aa")
-		(property "Reference" "Q8"
-			(at 55.88 19.05 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DMP3068L-7"
-			(at 55.88 21.59 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 57.785 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMP3068L.pdf"
-			(at 59.69 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" ""
-			(at 55.88 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "956aa5ad-3947-4c18-891a-d2856ca64a3b")
-		)
-		(pin "1"
-			(uuid "b834f12e-df2d-4c54-b43b-29f166c0abf9")
-		)
-		(pin "2"
-			(uuid "33c37bd5-66bc-4231-ac11-20398461aa70")
-		)
-		(instances
-			(project "MoistureESP"
-				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/0811c99d-47a8-481e-b182-179220f41fae"
-					(reference "Q8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:BZT52Bxx")
 		(at 76.2 46.99 270)
 		(unit 1)
@@ -1095,6 +1487,106 @@
 			(project "MoistureESP"
 				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/0811c99d-47a8-481e-b182-179220f41fae"
 					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom:SI7137DP-T1-GE3")
+		(at 118.11 25.4 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52aee234-07dd-421c-9656-79de8948ca37")
+		(property "Reference" "Q9"
+			(at 119.0625 17.78 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "SI7137DP-T1-GE3"
+			(at 119.0625 20.32 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "custom:MOSFET_7DP-T1-GE3_VIS"
+			(at 112.522 27.178 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/doc?69063"
+			(at 111.506 26.924 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 118.11 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "8"
+			(uuid "81857546-0106-412d-984d-9015fdbcf234")
+		)
+		(pin "5"
+			(uuid "9d7c7baf-6a37-4549-99b6-5274a80ed779")
+		)
+		(pin "3"
+			(uuid "a00bba96-99f6-4f78-b00c-526e40536bdd")
+		)
+		(pin "1"
+			(uuid "0b8bd6ca-34dc-4b64-8f17-3006e070d5e6")
+		)
+		(pin "4"
+			(uuid "7cd5e384-e8d9-46d0-80e9-ae7b41c01cc6")
+		)
+		(pin "7"
+			(uuid "20afbb02-6df4-4952-802b-0977e7bee654")
+		)
+		(pin "2"
+			(uuid "15d24aeb-a9d0-4b97-8fdc-4943894cc574")
+		)
+		(pin "6"
+			(uuid "5b5ed0fb-0999-4208-93dc-4a361ffe9a38")
+		)
+		(instances
+			(project "MoistureESP"
+				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/0811c99d-47a8-481e-b182-179220f41fae"
+					(reference "Q9")
 					(unit 1)
 				)
 			)
@@ -1183,7 +1675,89 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:DMP3099L")
+		(lib_id "Device:R")
+		(at 55.88 50.8 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8737f7b6-939f-43b8-a9bb-1368d7a0c308")
+		(property "Reference" "R42"
+			(at 58.42 49.5299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10K"
+			(at 58.42 52.0699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 57.658 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 55.88 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a0ccdada-4fb7-41b9-8228-073985dda89f")
+		)
+		(pin "2"
+			(uuid "403418d5-d30d-4445-9313-2b074e1e227a")
+		)
+		(instances
+			(project "MoistureESP"
+				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/0811c99d-47a8-481e-b182-179220f41fae"
+					(reference "R42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BC856")
 		(at 91.44 40.64 0)
 		(mirror x)
 		(unit 1)
@@ -1193,9 +1767,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "75152fe9-c890-47e4-a73b-257c6b35c761")
+		(uuid "92e3b37e-f32c-4559-9990-b34d3b318b10")
 		(property "Reference" "Q10"
-			(at 97.79 41.9101 0)
+			(at 95.504 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1205,8 +1779,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DMP3068L-7"
-			(at 97.79 39.3701 0)
+		(property "Value" "BC856BLT1G0SCT-ND"
+			(at 95.504 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1229,8 +1803,8 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMP3068L.pdf"
-			(at 96.52 36.83 0)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC860-D.pdf"
+			(at 91.44 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1241,7 +1815,29 @@
 				(justify left)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.1A Ic, 65V Vce, PNP Transistor, SOT-23"
+			(at 91.44 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "PNP"
+			(at 91.44 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=B 2=E 3=C"
 			(at 91.44 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -1253,13 +1849,13 @@
 			)
 		)
 		(pin "3"
-			(uuid "d2fe7f0e-e1f7-417c-bc57-a4c178bdb0ba")
+			(uuid "b61be322-e870-4bc4-8a50-b5d17aeec5dd")
 		)
 		(pin "1"
-			(uuid "8c1755a7-d050-4f24-a885-c9f501164fe4")
+			(uuid "0843a4c2-5cf2-4d29-bbcf-1741adbe35a7")
 		)
 		(pin "2"
-			(uuid "15a461d2-b794-4743-bc63-39f6b833a191")
+			(uuid "b057970d-c8f5-4c3f-b9a7-f6fc13d1a988")
 		)
 		(instances
 			(project "MoistureESP"
@@ -1353,8 +1949,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:DMP3099L")
-		(at 116.84 27.94 270)
+		(lib_id "custom:SI7137DP-T1-GE3")
+		(at 54.61 25.4 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -1363,29 +1959,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "d7f26ac4-4273-4a6b-96b7-7cd66e4b211e")
-		(property "Reference" "Q9"
-			(at 116.84 19.05 90)
+		(uuid "e1cf43b5-14fc-4db0-8f53-ac87dba14429")
+		(property "Reference" "Q8"
+			(at 53.6575 17.78 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Value" "DMP3068L-7"
-			(at 116.84 21.59 90)
+		(property "Value" "SI7137DP-T1-GE3"
+			(at 53.6575 20.32 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 114.935 22.86 0)
+		(property "Footprint" "custom:MOSFET_7DP-T1-GE3_VIS"
+			(at 60.198 27.178 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1394,23 +1990,22 @@
 					(size 1.27 1.27)
 					(italic yes)
 				)
-				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMP3068L.pdf"
-			(at 113.03 22.86 0)
+		(property "Datasheet" "https://www.vishay.com/doc?69063"
+			(at 61.214 26.924 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
-				(justify left)
 			)
 		)
 		(property "Description" ""
-			(at 116.84 27.94 0)
+			(at 54.61 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1420,19 +2015,34 @@
 				)
 			)
 		)
+		(pin "8"
+			(uuid "24747691-569f-4119-907d-099188779561")
+		)
+		(pin "5"
+			(uuid "a0c5b572-8a24-432d-90fa-f11ce5e64cf3")
+		)
 		(pin "3"
-			(uuid "2d9fabf9-3518-4911-abfa-cd353062bc15")
+			(uuid "97139e3d-ccc8-48bd-a3c3-25ae98c635f8")
 		)
 		(pin "1"
-			(uuid "1009b908-0b65-4672-933e-1917b4c1752e")
+			(uuid "bb2f3287-16b4-49ff-814d-df5f0d1fd78f")
+		)
+		(pin "4"
+			(uuid "7510e4b0-44fa-4184-a240-959d7f12000c")
+		)
+		(pin "7"
+			(uuid "46bad9e1-d231-4b82-b979-831636a33f4d")
 		)
 		(pin "2"
-			(uuid "9ecc880c-5f0a-4127-9477-da20ee8c98f5")
+			(uuid "414d1cad-82ef-4244-9908-0438bceae7c6")
+		)
+		(pin "6"
+			(uuid "6055b29a-8b6e-45dc-ab0e-4e5c1e256c02")
 		)
 		(instances
 			(project "MoistureESP"
 				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/0811c99d-47a8-481e-b182-179220f41fae"
-					(reference "Q9")
+					(reference "Q8")
 					(unit 1)
 				)
 			)
