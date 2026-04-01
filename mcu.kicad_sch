@@ -465,7 +465,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "RF_Module:ESP32-WROOM-32D"
+		(symbol "RF_Module:ESP32-WROOM-32"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -482,7 +482,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "ESP32-WROOM-32D"
+			(property "Value" "ESP32-WROOM-32"
 				(at 1.27 34.29 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -493,8 +493,8 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "RF_Module:ESP32-WROOM-32D"
-				(at 16.51 -34.29 0)
+			(property "Footprint" "RF_Module:ESP32-WROOM-32"
+				(at 0 -38.1 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -504,7 +504,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf"
+			(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf"
 				(at -7.62 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -515,7 +515,7 @@
 					)
 				)
 			)
-			(property "Description" "RF Module, ESP32-D0WD SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, onboard antenna, SMD"
+			(property "Description" "RF Module, ESP32-D0WDQ6 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, onboard antenna, SMD"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -537,7 +537,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "ESP32?WROOM?32D*"
+			(property "ki_fp_filters" "ESP32?WROOM?32*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -548,7 +548,7 @@
 					)
 				)
 			)
-			(symbol "ESP32-WROOM-32D_0_1"
+			(symbol "ESP32-WROOM-32_0_1"
 				(rectangle
 					(start -12.7 33.02)
 					(end 12.7 -33.02)
@@ -561,7 +561,7 @@
 					)
 				)
 			)
-			(symbol "ESP32-WROOM-32D_1_1"
+			(symbol "ESP32-WROOM-32_1_1"
 				(pin power_in line
 					(at 0 -35.56 90)
 					(length 2.54)
@@ -3959,6 +3959,199 @@
 		)
 	)
 	(symbol
+		(lib_id "RF_Module:ESP32-WROOM-32")
+		(at 123.19 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3fcf37c4-7d42-4160-b75a-77d4f5518e6c")
+		(property "Reference" "U2"
+			(at 125.3333 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ESP32-WROOM-32"
+			(at 125.3333 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RF_Module:ESP32-WROOM-32"
+			(at 123.19 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf"
+			(at 115.57 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RF Module, ESP32-D0WDQ6 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, onboard antenna, SMD"
+			(at 123.19 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "21"
+			(uuid "ce01d737-1891-4363-9399-40bb2280326c")
+		)
+		(pin "12"
+			(uuid "8f85ed62-70b0-42df-85fd-9181813fa8d6")
+		)
+		(pin "36"
+			(uuid "11da978c-e70a-49f1-b06b-a53991e09256")
+		)
+		(pin "10"
+			(uuid "78f7f5f9-9d49-41e4-82a7-f4f678a9c514")
+		)
+		(pin "26"
+			(uuid "07f0382d-0ada-4c45-bd8b-db3d22412321")
+		)
+		(pin "22"
+			(uuid "204a5dc6-3c94-4dfa-b26b-27fc523c8845")
+		)
+		(pin "31"
+			(uuid "63cedc32-ebdb-4a45-92e9-a56c5a85dbad")
+		)
+		(pin "23"
+			(uuid "193f4837-4653-403c-ae68-e8daaac038d5")
+		)
+		(pin "7"
+			(uuid "f6cdd4af-669d-46cf-995a-651a92b64aaf")
+		)
+		(pin "6"
+			(uuid "b052baca-f0b4-43e6-bf27-54f77b68bcbb")
+		)
+		(pin "5"
+			(uuid "ae096858-3915-4ab1-b3d8-9c8e8bc9dca2")
+		)
+		(pin "4"
+			(uuid "1fa804e9-0188-4efb-8215-c29e917705d1")
+		)
+		(pin "3"
+			(uuid "16f987be-3a91-48b6-8d69-49d779aa693d")
+		)
+		(pin "2"
+			(uuid "3db2da86-ce7f-4bc6-8652-a0d47dd77647")
+		)
+		(pin "1"
+			(uuid "64f2371a-ed0d-4da5-9dba-e39becffc476")
+		)
+		(pin "39"
+			(uuid "598065b8-cd4a-444c-b867-6fda5f465985")
+		)
+		(pin "35"
+			(uuid "d09aab04-3d57-45f2-99ee-1f7d29f6c749")
+		)
+		(pin "11"
+			(uuid "f528feed-9437-4057-a9ad-5b27f2ece9df")
+		)
+		(pin "19"
+			(uuid "d7d68eaa-37f5-4b49-82da-0f0348940e52")
+		)
+		(pin "17"
+			(uuid "fb97af9e-3683-4a72-856f-6e3bac63265a")
+		)
+		(pin "29"
+			(uuid "2e5e70af-3cec-4115-a96c-6b692b4da638")
+		)
+		(pin "24"
+			(uuid "ce34b626-cbb0-4dd0-93e5-6d2459bbec8c")
+		)
+		(pin "8"
+			(uuid "0a33b998-acea-49eb-bb67-6dbf28bd476d")
+		)
+		(pin "18"
+			(uuid "dce73699-cf60-405b-a5f9-2eeb5fb767f9")
+		)
+		(pin "15"
+			(uuid "c7742770-ba97-49ab-a5ba-32ab168648b0")
+		)
+		(pin "32"
+			(uuid "d991db28-8f74-4977-b872-b18afb2c9431")
+		)
+		(pin "27"
+			(uuid "adab7844-c8ba-4ad7-a44a-0da9c095ee55")
+		)
+		(pin "9"
+			(uuid "0682a9d8-3c39-4d25-b7a0-fb0bb4492c6e")
+		)
+		(pin "38"
+			(uuid "3f999a51-f47d-49df-a7ab-da6a55f71d83")
+		)
+		(pin "28"
+			(uuid "ef0d6cbc-26f6-4d55-9960-05b287df3420")
+		)
+		(pin "13"
+			(uuid "d4370936-a86f-4b34-8a96-1323f83cf913")
+		)
+		(pin "20"
+			(uuid "d533e5ba-49b0-4769-911e-c5839e700271")
+		)
+		(pin "25"
+			(uuid "b0c94763-140c-401c-93eb-fed0f8878353")
+		)
+		(pin "34"
+			(uuid "b4412796-9c2a-4a39-ae7e-a05f2f5dae06")
+		)
+		(pin "30"
+			(uuid "292de385-881e-4c83-9f99-fe0288af690a")
+		)
+		(pin "37"
+			(uuid "48c2680a-26f8-48aa-94c0-93e78d0208dd")
+		)
+		(pin "14"
+			(uuid "ee7e52ac-49b8-424d-baf8-aa5359876291")
+		)
+		(pin "16"
+			(uuid "0dd4d905-e5a7-4968-9b5f-1330291d8408")
+		)
+		(pin "33"
+			(uuid "d021a4a3-573a-417d-a344-1c5d1b6c3887")
+		)
+		(instances
+			(project "MoistureESP"
+				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/0ddaa739-ba4f-4157-bc77-184906368825"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDD")
 		(at 45.72 125.73 0)
 		(unit 1)
@@ -4698,199 +4891,6 @@
 			(project "MoistureESP"
 				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/0ddaa739-ba4f-4157-bc77-184906368825"
 					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "RF_Module:ESP32-WROOM-32D")
-		(at 123.19 86.36 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "854b80f3-3df1-4924-b37d-2150a9ab62af")
-		(property "Reference" "U2"
-			(at 125.3333 48.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ESP32-WROOM-32D"
-			(at 125.3333 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "RF_Module:ESP32-WROOM-32D"
-			(at 139.7 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf"
-			(at 115.57 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "RF Module, ESP32-D0WD SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, onboard antenna, SMD"
-			(at 123.19 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "8"
-			(uuid "4de99b58-6404-43c2-80c0-a7639e5ecd35")
-		)
-		(pin "10"
-			(uuid "91344e08-2b30-4884-8d9d-860e9562750d")
-		)
-		(pin "14"
-			(uuid "68a24e2b-7f35-4ab4-8e61-a85eced0d704")
-		)
-		(pin "9"
-			(uuid "8936e5ee-3d5e-4796-9580-2be88dfa6f1a")
-		)
-		(pin "28"
-			(uuid "e7b7bf6a-c6c6-4030-87e2-98ec74250329")
-		)
-		(pin "24"
-			(uuid "14999f69-4526-4fc0-9410-1ee8b8d10d28")
-		)
-		(pin "20"
-			(uuid "2dcf7782-ea3b-4471-bde6-1a6c4ed8de88")
-		)
-		(pin "12"
-			(uuid "8347221d-bf09-4ba0-9dc4-888edeeddb83")
-		)
-		(pin "23"
-			(uuid "0285d75a-9453-41af-b43f-004d90dfddf5")
-		)
-		(pin "38"
-			(uuid "e04f57c6-2a4f-4b60-9e8b-2f0767d5598b")
-		)
-		(pin "7"
-			(uuid "756d7633-8126-4e99-81ae-a5c26533470f")
-		)
-		(pin "11"
-			(uuid "4931310c-2cac-4427-8b08-cca81fd7a3c4")
-		)
-		(pin "18"
-			(uuid "edfb8705-0bf4-4692-8e56-b4ca34c35d76")
-		)
-		(pin "36"
-			(uuid "f45a50f7-44b9-4579-95a8-8e0310a6ca65")
-		)
-		(pin "22"
-			(uuid "7b4dcbf4-4c59-4f07-a9d9-54fa71cf0405")
-		)
-		(pin "4"
-			(uuid "078bf0d1-2486-44f7-a4ef-9e3915ba05e3")
-		)
-		(pin "21"
-			(uuid "6cdbaf18-98e6-417d-8b34-93b98732626f")
-		)
-		(pin "34"
-			(uuid "3e1772b6-65ec-46b1-a275-fd6a7fe62433")
-		)
-		(pin "17"
-			(uuid "5456771a-3865-4b94-80c4-7e489cfefb4c")
-		)
-		(pin "13"
-			(uuid "0e8c235b-a27b-46c7-ab49-668fda1586cb")
-		)
-		(pin "26"
-			(uuid "2103a36d-0815-43eb-9249-a6346ac340e8")
-		)
-		(pin "19"
-			(uuid "57f644bd-fb4f-4204-a10e-8dd11823394f")
-		)
-		(pin "5"
-			(uuid "145067ff-1f96-40a1-84c8-13aff87bf927")
-		)
-		(pin "29"
-			(uuid "4dce6e26-ab65-4f2b-ad1a-ce4bc14468a3")
-		)
-		(pin "6"
-			(uuid "e67b43ef-99d9-47f8-8fd8-c24c7fa042cd")
-		)
-		(pin "25"
-			(uuid "862920af-02d7-47e1-985d-27cfd14277eb")
-		)
-		(pin "3"
-			(uuid "83a7cb58-bf58-48b1-a69e-57eb49fea628")
-		)
-		(pin "30"
-			(uuid "fa381406-cce0-4b43-aaff-86ced345e28c")
-		)
-		(pin "31"
-			(uuid "8562e4b5-7850-43eb-b663-3067f4e44783")
-		)
-		(pin "33"
-			(uuid "989661e1-8264-40b5-95aa-48e4eadc5167")
-		)
-		(pin "39"
-			(uuid "70fc2ec7-8700-4ec3-a5fd-5ead0d6a3ffc")
-		)
-		(pin "32"
-			(uuid "22da88f7-2ba8-47ce-8158-ba07290e176b")
-		)
-		(pin "15"
-			(uuid "53083b39-b01c-437b-9758-00bd13f10db3")
-		)
-		(pin "37"
-			(uuid "b4ca01b4-78b3-42ad-8ba7-440e8fb4bf4a")
-		)
-		(pin "35"
-			(uuid "1c34d2ae-9072-44a6-8679-20c5961a89d7")
-		)
-		(pin "27"
-			(uuid "12168cbe-62ea-413a-94c8-a8d1c3268473")
-		)
-		(pin "16"
-			(uuid "e406a576-41d2-4541-af0a-9171d697b02f")
-		)
-		(pin "2"
-			(uuid "2cda9515-c14b-40d1-877d-f47f849a8bab")
-		)
-		(pin "1"
-			(uuid "7857f593-9b98-4362-8b31-c4476d45dc04")
-		)
-		(instances
-			(project "MoistureESP"
-				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/0ddaa739-ba4f-4157-bc77-184906368825"
-					(reference "U2")
 					(unit 1)
 				)
 			)
