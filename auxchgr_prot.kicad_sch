@@ -944,8 +944,8 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 10.16 270)
-					(length 7.62)
+					(at 0 6.35 270)
+					(length 3.81)
 					(hide yes)
 					(name "S"
 						(effects
@@ -963,8 +963,8 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 10.16 270)
-					(length 7.62)
+					(at 0 6.35 270)
+					(length 3.81)
 					(hide yes)
 					(name "S"
 						(effects
@@ -1000,7 +1000,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -6.35 90)
+					(at 0 -7.62 90)
 					(length 3.81)
 					(name "D"
 						(effects
@@ -1018,8 +1018,8 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -11.43 90)
-					(length 7.62)
+					(at 0 -7.62 90)
+					(length 3.81)
 					(hide yes)
 					(name "D"
 						(effects
@@ -1037,8 +1037,8 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -11.43 90)
-					(length 7.62)
+					(at 0 -7.62 90)
+					(length 3.81)
 					(hide yes)
 					(name "D"
 						(effects
@@ -1056,8 +1056,8 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -11.43 90)
-					(length 7.62)
+					(at 0 -7.62 90)
+					(length 3.81)
 					(hide yes)
 					(name "D"
 						(effects
@@ -1097,12 +1097,6 @@
 			(justify left top)
 		)
 		(uuid "d20bce63-0984-4330-b045-e7d635dc44a6")
-	)
-	(junction
-		(at 129.54 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5cad49e1-8d76-4dbd-97c5-2f96b76e42fe")
 	)
 	(junction
 		(at 55.88 63.5)
@@ -1148,6 +1142,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 25.4) (xy 46.99 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fbb9b46-1755-49ea-b941-0549098f9f38")
+	)
+	(wire
+		(pts
 			(xy 55.88 33.02) (xy 55.88 46.99)
 		)
 		(stroke
@@ -1188,16 +1192,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 25.4) (xy 129.54 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "540da44b-3f1a-4e73-9e0c-93ff040d70d3")
-	)
-	(wire
-		(pts
 			(xy 76.2 25.4) (xy 93.98 25.4)
 		)
 		(stroke
@@ -1235,16 +1229,6 @@
 			(type default)
 		)
 		(uuid "7a5615fe-6329-41dc-a72b-915cc023d3e2")
-	)
-	(wire
-		(pts
-			(xy 129.54 25.4) (xy 132.08 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81db47d3-d6dc-445d-9f39-c3801c116c82")
 	)
 	(wire
 		(pts
@@ -1318,13 +1302,13 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 25.4) (xy 48.26 25.4)
+			(xy 125.73 25.4) (xy 132.08 25.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e57c26df-a6bc-4db1-9f2e-c990113b4dcf")
+		(uuid "ddee101a-35be-4d7f-b77d-edd85ad273f1")
 	)
 	(wire
 		(pts
@@ -1504,7 +1488,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52aee234-07dd-421c-9656-79de8948ca37")
-		(property "Reference" "Q9"
+		(property "Reference" "Q10"
 			(at 119.0625 17.78 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1586,7 +1570,7 @@
 		(instances
 			(project "MoistureESP"
 				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/0811c99d-47a8-481e-b182-179220f41fae"
-					(reference "Q9")
+					(reference "Q10")
 					(unit 1)
 				)
 			)
@@ -1604,7 +1588,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6768e55c-fba5-4e26-89df-a04ef8fefcc1")
-		(property "Reference" "R13"
+		(property "Reference" "R42"
 			(at 119.38 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1668,7 +1652,7 @@
 		(instances
 			(project "MoistureESP"
 				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/0811c99d-47a8-481e-b182-179220f41fae"
-					(reference "R13")
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -1686,7 +1670,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8737f7b6-939f-43b8-a9bb-1368d7a0c308")
-		(property "Reference" "R42"
+		(property "Reference" "R40"
 			(at 58.42 49.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1750,7 +1734,7 @@
 		(instances
 			(project "MoistureESP"
 				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/0811c99d-47a8-481e-b182-179220f41fae"
-					(reference "R42")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -1768,7 +1752,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "92e3b37e-f32c-4559-9990-b34d3b318b10")
-		(property "Reference" "Q10"
+		(property "Reference" "Q9"
 			(at 95.504 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1860,7 +1844,7 @@
 		(instances
 			(project "MoistureESP"
 				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/0811c99d-47a8-481e-b182-179220f41fae"
-					(reference "Q10")
+					(reference "Q9")
 					(unit 1)
 				)
 			)

@@ -2456,7 +2456,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0564b67f-6fd7-4f9b-8766-66674bc2a3fe")
-		(property "Reference" "C13"
+		(property "Reference" "C12"
 			(at 168.91 49.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2520,7 +2520,7 @@
 		(instances
 			(project "MoistureESP"
 				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/49685a81-7509-4241-9c59-8f2ca08912fe"
-					(reference "C13")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -2537,7 +2537,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0a9c9552-b70c-4e4e-818d-963621166a0d")
-		(property "Reference" "R24"
+		(property "Reference" "R20"
 			(at 142.24 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2611,7 +2611,7 @@
 		(instances
 			(project "MoistureESP"
 				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/49685a81-7509-4241-9c59-8f2ca08912fe"
-					(reference "R24")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -2706,7 +2706,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "17a3d438-cb82-4dd3-a833-7ebc27c46400")
-		(property "Reference" "R23"
+		(property "Reference" "R19"
 			(at 142.24 95.2499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2780,7 +2780,7 @@
 		(instances
 			(project "MoistureESP"
 				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/49685a81-7509-4241-9c59-8f2ca08912fe"
-					(reference "R23")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -2798,7 +2798,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33f1cdfc-6c3b-4748-9f0b-43c2fff31390")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR031"
 			(at 67.31 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -2858,7 +2858,7 @@
 		(instances
 			(project "MoistureESP"
 				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/49685a81-7509-4241-9c59-8f2ca08912fe"
-					(reference "#PWR061")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -2876,7 +2876,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3eb202a7-8f8e-4891-ac36-0fac325d83d9")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR028"
 			(at 35.56 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -2936,7 +2936,7 @@
 		(instances
 			(project "MoistureESP"
 				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/49685a81-7509-4241-9c59-8f2ca08912fe"
-					(reference "#PWR09")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -2953,7 +2953,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "40b3c5f3-fcaa-4eb6-8b04-53734b370e3f")
-		(property "Reference" "R25"
+		(property "Reference" "R15"
 			(at 43.434 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3028,7 +3028,7 @@
 		(instances
 			(project "MoistureESP"
 				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/49685a81-7509-4241-9c59-8f2ca08912fe"
-					(reference "R25")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -3046,7 +3046,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44626cf9-1593-4f40-99d3-48e6faf1a206")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR034"
 			(at 127 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -3106,7 +3106,7 @@
 		(instances
 			(project "MoistureESP"
 				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/49685a81-7509-4241-9c59-8f2ca08912fe"
-					(reference "#PWR073")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -3124,7 +3124,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c903e6d-3330-455b-9970-b8bac8c99b51")
-		(property "Reference" "U3"
+		(property "Reference" "U2"
 			(at 106.68 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3203,7 +3203,7 @@
 		(instances
 			(project "MoistureESP"
 				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/49685a81-7509-4241-9c59-8f2ca08912fe"
-					(reference "U3")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -3221,7 +3221,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f168109-2ab7-4244-9c70-0225e04fa342")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR033"
 			(at 127 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -3281,7 +3281,7 @@
 		(instances
 			(project "MoistureESP"
 				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/49685a81-7509-4241-9c59-8f2ca08912fe"
-					(reference "#PWR068")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -3379,7 +3379,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5877f25c-8b8f-4e94-811f-80e96125f219")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR039"
 			(at 260.35 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -3439,7 +3439,7 @@
 		(instances
 			(project "MoistureESP"
 				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/49685a81-7509-4241-9c59-8f2ca08912fe"
-					(reference "#PWR018")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -3457,7 +3457,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d9d3543-8838-48cc-8e56-b40f4d901c22")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR032"
 			(at 67.31 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -3517,7 +3517,7 @@
 		(instances
 			(project "MoistureESP"
 				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/49685a81-7509-4241-9c59-8f2ca08912fe"
-					(reference "#PWR076")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -3534,7 +3534,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5f33eed6-76a2-458a-9da3-add6e412a2a5")
-		(property "Reference" "R21"
+		(property "Reference" "R17"
 			(at 142.24 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3608,7 +3608,7 @@
 		(instances
 			(project "MoistureESP"
 				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/49685a81-7509-4241-9c59-8f2ca08912fe"
-					(reference "R21")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -3626,7 +3626,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60e6270c-57e0-4662-ab5e-bee219363b52")
-		(property "Reference" "Q6"
+		(property "Reference" "Q5"
 			(at 60.96 118.1099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3693,7 +3693,7 @@
 		(instances
 			(project "MoistureESP"
 				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/49685a81-7509-4241-9c59-8f2ca08912fe"
-					(reference "Q6")
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -3711,7 +3711,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c56b558-bd52-4f83-9fea-48c4cc97a12e")
-		(property "Reference" "C14"
+		(property "Reference" "C11"
 			(at 71.12 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3775,7 +3775,7 @@
 		(instances
 			(project "MoistureESP"
 				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/49685a81-7509-4241-9c59-8f2ca08912fe"
-					(reference "C14")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -3793,7 +3793,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c5885aa-539a-4ac5-85be-9f30ade79142")
-		(property "Reference" "Q7"
+		(property "Reference" "Q4"
 			(at 41.91 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3860,7 +3860,7 @@
 		(instances
 			(project "MoistureESP"
 				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/49685a81-7509-4241-9c59-8f2ca08912fe"
-					(reference "Q7")
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -3878,7 +3878,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83897297-955f-4bdf-ac58-62e1ebb47448")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR030"
 			(at 57.15 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -3938,7 +3938,7 @@
 		(instances
 			(project "MoistureESP"
 				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/49685a81-7509-4241-9c59-8f2ca08912fe"
-					(reference "#PWR077")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -3956,7 +3956,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "874a4d30-4eee-415a-928e-79aaf064a290")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR036"
 			(at 139.7 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -4016,7 +4016,7 @@
 		(instances
 			(project "MoistureESP"
 				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/49685a81-7509-4241-9c59-8f2ca08912fe"
-					(reference "#PWR074")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -4034,7 +4034,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9bae79db-7e99-4904-9179-4ea32e879fdb")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR027"
 			(at 27.94 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -4094,7 +4094,7 @@
 		(instances
 			(project "MoistureESP"
 				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/49685a81-7509-4241-9c59-8f2ca08912fe"
-					(reference "#PWR08")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -4112,7 +4112,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6517d85-0e5d-4d48-9e33-a34b51496696")
-		(property "Reference" "C12"
+		(property "Reference" "C10"
 			(at 71.12 49.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4176,7 +4176,7 @@
 		(instances
 			(project "MoistureESP"
 				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/49685a81-7509-4241-9c59-8f2ca08912fe"
-					(reference "C12")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -4193,7 +4193,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ab1c4174-0618-4d7d-8ea2-f09f4c73fb77")
-		(property "Reference" "R22"
+		(property "Reference" "R18"
 			(at 142.24 59.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4267,7 +4267,7 @@
 		(instances
 			(project "MoistureESP"
 				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/49685a81-7509-4241-9c59-8f2ca08912fe"
-					(reference "R22")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -4284,7 +4284,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b2e23b28-77bc-469b-be7d-b037d7ba5bac")
-		(property "Reference" "R28"
+		(property "Reference" "R13"
 			(at 20.574 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4359,7 +4359,7 @@
 		(instances
 			(project "MoistureESP"
 				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/49685a81-7509-4241-9c59-8f2ca08912fe"
-					(reference "R28")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -4376,7 +4376,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b369263a-d3c1-45e5-a8b9-9b89fb20d26b")
-		(property "Reference" "R27"
+		(property "Reference" "R14"
 			(at 20.574 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4451,7 +4451,7 @@
 		(instances
 			(project "MoistureESP"
 				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/49685a81-7509-4241-9c59-8f2ca08912fe"
-					(reference "R27")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -4469,7 +4469,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c004951d-2a55-4344-8aea-46ce0f8795c3")
-		(property "Reference" "C15"
+		(property "Reference" "C13"
 			(at 168.91 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4533,7 +4533,7 @@
 		(instances
 			(project "MoistureESP"
 				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/49685a81-7509-4241-9c59-8f2ca08912fe"
-					(reference "C15")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -4551,7 +4551,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5573cda-9893-4c02-afe6-84d82ea9ed07")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR038"
 			(at 165.1 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -4611,7 +4611,7 @@
 		(instances
 			(project "MoistureESP"
 				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/49685a81-7509-4241-9c59-8f2ca08912fe"
-					(reference "#PWR075")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -4629,7 +4629,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d65ab00e-3790-49a7-87cc-efd619d3d376")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR035"
 			(at 139.7 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -4689,7 +4689,7 @@
 		(instances
 			(project "MoistureESP"
 				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/49685a81-7509-4241-9c59-8f2ca08912fe"
-					(reference "#PWR071")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -4707,7 +4707,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d76629cf-2c94-448b-9f67-5f80bda017ab")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR037"
 			(at 165.1 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -4767,7 +4767,7 @@
 		(instances
 			(project "MoistureESP"
 				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/49685a81-7509-4241-9c59-8f2ca08912fe"
-					(reference "#PWR072")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -4865,7 +4865,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6f4f742-7ef4-4ae7-84b3-493741ac6692")
-		(property "Reference" "U4"
+		(property "Reference" "U3"
 			(at 106.68 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4944,7 +4944,7 @@
 		(instances
 			(project "MoistureESP"
 				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/49685a81-7509-4241-9c59-8f2ca08912fe"
-					(reference "U4")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -4961,7 +4961,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fc43eb35-5219-4977-9d3f-1b349b58aca1")
-		(property "Reference" "R26"
+		(property "Reference" "R16"
 			(at 51.054 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5036,7 +5036,7 @@
 		(instances
 			(project "MoistureESP"
 				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/49685a81-7509-4241-9c59-8f2ca08912fe"
-					(reference "R26")
+					(reference "R16")
 					(unit 1)
 				)
 			)
