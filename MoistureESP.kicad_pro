@@ -41,7 +41,7 @@
         "pads": {
           "drill": 0.0,
           "height": 0.95,
-          "width": 0.975
+          "width": 1.075
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -198,7 +198,8 @@
         0.1524,
         0.254,
         0.381,
-        0.508
+        0.508,
+        1.016
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -234,6 +235,10 @@
         {
           "diameter": 0.6,
           "drill": 0.3
+        },
+        {
+          "diameter": 1.016,
+          "drill": 0.508
         }
       ],
       "zones_allow_external_fillets": false
