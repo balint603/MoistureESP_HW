@@ -2378,6 +2378,16 @@
 		)
 		(uuid "f5afd55b-2ff9-4cd4-bc24-8f4179347bff")
 	)
+	(label "Vsysf"
+		(at 40.64 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "69229d15-a7f9-404a-a9dd-2f02c862c23c")
+	)
 	(hierarchical_label "Vdd"
 		(shape output)
 		(at 266.7 44.45 0)
