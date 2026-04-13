@@ -1957,6 +1957,12 @@
 		(uuid "4f59d7fb-4ed4-46b2-be01-441bde34abb3")
 	)
 	(junction
+		(at 123.19 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54ee5a6d-6a32-487f-ac61-1b18e2966019")
+	)
+	(junction
 		(at 114.3 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2021,16 +2027,56 @@
 		(uuid "00d3fff6-f9bd-485d-ac86-47e1531f6ebe")
 	)
 	(no_connect
+		(at 138.43 109.22)
+		(uuid "18f2998d-b591-48c8-9ee8-a5ee48a0501c")
+	)
+	(no_connect
+		(at 138.43 101.6)
+		(uuid "20b15b9e-3ca5-45a2-9db5-8db7bcf011b9")
+	)
+	(no_connect
+		(at 138.43 91.44)
+		(uuid "30c1defb-c11a-4f98-be56-3aa36548bf20")
+	)
+	(no_connect
+		(at 138.43 68.58)
+		(uuid "37735293-b29e-44ad-aad5-09fc9a59a44c")
+	)
+	(no_connect
+		(at 138.43 111.76)
+		(uuid "3b31287e-3ed8-43bb-ba4d-80b9f84b887a")
+	)
+	(no_connect
 		(at 107.95 63.5)
 		(uuid "3b776332-5f6c-418a-a219-e67082fd1294")
+	)
+	(no_connect
+		(at 138.43 71.12)
+		(uuid "429c2422-31e8-49fd-9ed4-35d2b7bf1ada")
+	)
+	(no_connect
+		(at 138.43 93.98)
+		(uuid "435b08a0-4b59-488f-99d1-0549c8ef32ec")
 	)
 	(no_connect
 		(at 107.95 60.96)
 		(uuid "50a277ee-493c-40f6-9012-ab6728d09b3f")
 	)
 	(no_connect
+		(at 138.43 60.96)
+		(uuid "5d68afe1-7e1f-4f9b-910b-8e96d2c664e5")
+	)
+	(no_connect
+		(at 138.43 106.68)
+		(uuid "7a3073b0-c2ba-452b-8a6a-4890ce0768a3")
+	)
+	(no_connect
 		(at 107.95 93.98)
 		(uuid "9c430aa1-1566-4729-9424-089fdce76aba")
+	)
+	(no_connect
+		(at 138.43 73.66)
+		(uuid "9d52b2ad-ce26-47cc-a465-6eebb648a2b3")
 	)
 	(no_connect
 		(at 107.95 86.36)
@@ -2047,6 +2093,14 @@
 	(no_connect
 		(at 107.95 96.52)
 		(uuid "bbe6cccb-283c-4da0-9db3-3265d4dfc0ed")
+	)
+	(no_connect
+		(at 138.43 78.74)
+		(uuid "dc1e77ce-0ce5-46ea-86fc-8e5cd967d76c")
+	)
+	(no_connect
+		(at 138.43 76.2)
+		(uuid "ef8c99ae-a30e-4997-9ec7-fd496d4ca41a")
 	)
 	(bus_entry
 		(at 236.22 91.44)
@@ -2139,6 +2193,16 @@
 			(type default)
 		)
 		(uuid "0124d5c8-79e2-4df8-8d8f-71d63dcecbed")
+	)
+	(wire
+		(pts
+			(xy 146.05 35.56) (xy 146.05 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0461f48d-4822-4775-aafc-f961c0ed45a9")
 	)
 	(wire
 		(pts
@@ -2389,6 +2453,16 @@
 			(type default)
 		)
 		(uuid "4c12aa70-35c8-4dcb-99ce-a5be31fdd756")
+	)
+	(wire
+		(pts
+			(xy 146.05 25.4) (xy 123.19 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c21976d-4544-4d68-83a2-46f84674c343")
 	)
 	(wire
 		(pts
@@ -2662,7 +2736,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 55.88) (xy 139.7 55.88)
+			(xy 138.43 55.88) (xy 146.05 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2779,6 +2853,16 @@
 			(type default)
 		)
 		(uuid "9cda7b84-11d5-498f-b3a7-6add1e2ec1de")
+	)
+	(wire
+		(pts
+			(xy 146.05 43.18) (xy 146.05 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9db7df7b-f8d2-44a4-a93b-1fd8104260ec")
 	)
 	(wire
 		(pts
@@ -5228,6 +5312,88 @@
 			(project "MoistureESP"
 				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/0ddaa739-ba4f-4157-bc77-184906368825"
 					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 146.05 39.37 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ebaeb64-8ee3-40cd-a3ce-d68ba7334b00")
+		(property "Reference" "R43"
+			(at 148.59 38.0999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10K"
+			(at 148.59 40.6399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 147.828 39.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 146.05 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d706fdcf-f409-48e8-b1f8-cea6c2f62222")
+		)
+		(pin "2"
+			(uuid "3041c8ce-93d9-41b4-98d7-5881008f500f")
+		)
+		(instances
+			(project "MoistureESP"
+				(path "/f2b9f638-139e-46ec-aa60-77c4af989196/0ddaa739-ba4f-4157-bc77-184906368825"
+					(reference "R43")
 					(unit 1)
 				)
 			)
