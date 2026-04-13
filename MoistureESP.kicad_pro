@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 2.2,
-          "width": 2.8
+          "height": 5.0,
+          "width": 8.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -50,7 +50,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.1524
+          "min_clearance": 0.254
         }
       },
       "diff_pair_dimensions": [
@@ -729,7 +729,7 @@
         "uuid": "f2b9f638-139e-46ec-aa60-77c4af989196"
       }
     ],
-    "used_designators": "H1-3,#PWR73,R43,TP1-4",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
