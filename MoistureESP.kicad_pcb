@@ -123,7 +123,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "./")
 		)
 	)
 	(footprint "custom:TRANS_SSM6K513NU-LF"
@@ -23619,6 +23619,43 @@
 				(font
 					(size 1.5 1.5)
 					(thickness 0.3)
+				)
+			)
+		)
+	)
+	(dimension
+		(type aligned)
+		(layer "Eco1.User")
+		(uuid "7310ded1-fbd9-4401-8887-8315c2703a21")
+		(pts
+			(xy 64.789368 157.479292) (xy 64.770235 52.705)
+		)
+		(height 9.853258)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 2)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1524)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "104,7743"
+			(at 75.785459 105.090137 -89.98953658)
+			(layer "Eco1.User")
+			(uuid "7310ded1-fbd9-4401-8887-8315c2703a21")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1524)
 				)
 			)
 		)
