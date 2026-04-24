@@ -4,6 +4,11 @@
 	(generator_version "10.0")
 	(uuid "63afc247-5597-4914-a32f-0a0692f76f92")
 	(paper "A4")
+	(title_block
+		(date "2026-03-27")
+		(rev "1")
+		(company "B.Major")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers
