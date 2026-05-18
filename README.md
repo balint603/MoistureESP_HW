@@ -5,6 +5,8 @@ This is not a complete product, it can be considered as a devboard.
 
 *Software component not published yet.*
 *3D case not published yet.*
+## Software
+See repository: [https://github.com/balint603/moist](https://github.com/balint603/moist)
 ## Components
 - *This PCB project*
 - ESP32-WROOM-32
@@ -29,8 +31,11 @@ This is not a complete product, it can be considered as a devboard.
 - Sized for 18650 battery cell, BMS tested with NCR18650B.
 - Optinally Li-ion charger can be connected.
 - Built-in USB charger was not tested.
+### BMS configuration
+1. Disable 2 cell: Settings->DA configuration->CC0 bit needs to be set to zero.
+    - Otherwise it causes CUV and discharge FET will not turn on.
 ## Prerequisites
 - KiCAD v10.0.0 
 
 ## Release
-- V1.0: Not tested yet, but ordered PCB.
+- V1.0: USB charger not tested.
